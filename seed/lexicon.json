@@ -1,0 +1,1476 @@
+[
+  {
+    "attribute_id": "floral",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["floral"],
+    "labels": { "en": "Floral", "es": "floral" },
+    "definitions": {
+      "en": "Sweet, light, slightly fragrant aromatic of fresh flowers.",
+      "es": "Aromático suave, dulce y ligeramente perfumado, propio de flores frescas."
+    },
+    "references": [
+      { "name_en": "Welch's white grape juice", "name_es": "Jugo de uva blanca Welch's", "source": "WCR_v1" },
+      { "name_en": "Le Nez du Café n.12 'coffee blossom'", "name_es": "Le Nez du Café n.12 'flor de café'", "source": "Le_Nez_du_Cafe" }
+    ]
+  },
+  {
+    "attribute_id": "black_tea",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["floral"],
+    "labels": { "en": "Black Tea", "es": "té negro" },
+    "definitions": {
+      "en": "Brown, musty, dried-bark aromatic from oxidised tea leaves.",
+      "es": "Aromático pardo, mohoso, a corteza seca; té oxidado."
+    },
+    "references": [
+      { "name_en": "Lipton Black Tea", "name_es": "Lipton Black Tea", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "chamomile",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["floral"],
+    "labels": { "en": "Chamomile", "es": "manzanilla" },
+    "definitions": {
+      "en": "Sweet, slightly woody-floral note of chamomile.",
+      "es": "Floral dulce y algo herbal, propio de la manzanilla."
+    },
+    "references": [
+      { "name_en": "Celestial Seasonings Chamomile", "name_es": "Celestial Seasonings Chamomile", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "rose",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["floral"],
+    "labels": { "en": "Rose", "es": "rosa" },
+    "definitions": {
+      "en": "Sweet, soft, slightly dusty floral fragrance.",
+      "es": "Floral suave, dulce y algo polvoriento."
+    },
+    "references": [
+      { "name_en": "Rose water", "name_es": "Agua de rosas", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "jasmine",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["floral"],
+    "labels": { "en": "Jasmine", "es": "jazmín" },
+    "definitions": {
+      "en": "Intense, sweet, slightly pungent floral aromatic.",
+      "es": "Floral intenso, dulce y ligeramente picante."
+    },
+    "references": [
+      { "name_en": "Jasmine extract", "name_es": "Extracto de jazmín", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "berry",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "berry"],
+    "labels": { "en": "Berry", "es": "baya" },
+    "definitions": {
+      "en": "Sweet, sour, floral aromatic of mixed berries.",
+      "es": "Aromático dulce-ácido y floral de bayas variadas."
+    },
+    "references": [
+      { "name_en": "Private Selection Triple Berry Preserves", "name_es": "Private Selection Triple Berry Preserves", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "blackberry",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "berry"],
+    "labels": { "en": "Blackberry", "es": "mora" },
+    "definitions": {
+      "en": "Sweet, dark, floral, slightly woody and sour.",
+      "es": "Dulce, oscuro, floral y un poco ácido, como mora."
+    },
+    "references": [
+      { "name_en": "Smucker's Blackberry Jam", "name_es": "Smucker's Blackberry Jam", "source": "WCR_v1" }
+    ],
+    "co_local_reference": {
+      "name_es": "Mora de Castilla (Rubus glaucus)",
+      "notes": "Andean blackberry widely cultivated in Colombian highlands; the Spanish term 'mora' is the natural Colombia-local descriptor."
+    }
+  },
+  {
+    "attribute_id": "raspberry",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "berry"],
+    "labels": { "en": "Raspberry", "es": "frambuesa" },
+    "definitions": {
+      "en": "Light sweet-fruity, slightly sour, floral, slightly musty.",
+      "es": "Dulce-ácido suave, floral y algo mohoso."
+    },
+    "references": [
+      { "name_en": "Jell-O Raspberry powder", "name_es": "Jell-O Raspberry powder", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "blueberry",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "berry"],
+    "labels": { "en": "Blueberry", "es": "arándano" },
+    "definitions": {
+      "en": "Dark, sweet, slightly sour and dusty-floral.",
+      "es": "Dulce-ácido, floral, algo terroso."
+    },
+    "references": [
+      { "name_en": "Oregon Fruit Blueberries in light syrup", "name_es": "Oregon Fruit Blueberries in light syrup", "source": "WCR_v1" }
+    ],
+    "co_local_reference": {
+      "name_es": "Mortiño (Vaccinium meridionale) silvestre andino",
+      "notes": "Wild Andean blueberry; common Colombian analogue."
+    }
+  },
+  {
+    "attribute_id": "strawberry",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "berry"],
+    "labels": { "en": "Strawberry", "es": "fresa / frutilla" },
+    "definitions": {
+      "en": "Sweet-sour, floral, fruity, often winey.",
+      "es": "Dulce-ácido, floral y a veces vinoso."
+    },
+    "references": [
+      { "name_en": "Dole Whole Strawberries", "name_es": "Dole Whole Strawberries", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "dried_fruit",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "dried_fruit"],
+    "labels": { "en": "Dried Fruit", "es": "fruta deshidratada" },
+    "definitions": {
+      "en": "Aromatic of dark, sweet, slightly brown dried fruit.",
+      "es": "Aromático a fruta seca, dulce y oscura."
+    },
+    "references": [
+      { "name_en": "Sunsweet Prune Juice", "name_es": "Sunsweet Prune Juice", "source": "WCR_v1" },
+      { "name_en": "raisin-prune mix", "name_es": "mezcla de pasas y ciruelas pasas", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "raisin",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "dried_fruit"],
+    "labels": { "en": "Raisin", "es": "pasa" },
+    "definitions": {
+      "en": "Concentrated, sweet, brown, slightly sour grape note.",
+      "es": "Concentrado, dulce-ácido, marrón."
+    },
+    "references": [
+      { "name_en": "Sun-Maid Raisins", "name_es": "Sun-Maid Raisins", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "prune",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "dried_fruit"],
+    "labels": { "en": "Prune", "es": "ciruela pasa" },
+    "definitions": {
+      "en": "Sweet, brown, floral, musty, overripe note.",
+      "es": "Dulce, marrón, mohoso, sobremaduro."
+    },
+    "references": [
+      { "name_en": "Sun-Maid Prunes", "name_es": "Sun-Maid Prunes", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "other_fruit",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "other_fruit"],
+    "labels": { "en": "Other Fruit", "es": "otra fruta" },
+    "definitions": {
+      "en": "Sweet, light, somewhat floral fruity aromatic.",
+      "es": "Aromático afrutado suave y algo floral."
+    },
+    "references": [
+      { "name_en": "Le Nez du Café n.17 'apple'", "name_es": "Le Nez du Café n.17 'manzana'", "source": "Le_Nez_du_Cafe" }
+    ]
+  },
+  {
+    "attribute_id": "apple",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "other_fruit"],
+    "labels": { "en": "Apple", "es": "manzana" },
+    "definitions": {
+      "en": "Sweet, light, fruity, somewhat floral.",
+      "es": "Dulce, ligero, afrutado y floral."
+    },
+    "references": [
+      { "name_en": "Le Nez du Café n.17", "name_es": "Le Nez du Café n.17", "source": "Le_Nez_du_Cafe" },
+      { "name_en": "Gerber Applesauce", "name_es": "Gerber Applesauce", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "pear",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "other_fruit"],
+    "labels": { "en": "Pear", "es": "pera" },
+    "definitions": {
+      "en": "Sweet, slightly floral, woody, fruity.",
+      "es": "Dulce, floral, leñoso."
+    },
+    "references": [
+      { "name_en": "Jumax Pear Nectar", "name_es": "Jumax Pear Nectar", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "peach",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "other_fruit"],
+    "labels": { "en": "Peach", "es": "durazno / melocotón" },
+    "definitions": {
+      "en": "Floral, perfuming, sweet-sour stone fruit.",
+      "es": "Floral, dulce-ácido, frutal a hueso."
+    },
+    "references": [
+      { "name_en": "Fresh peach pit", "name_es": "Hueso de durazno fresco", "source": "WCR_v1" },
+      { "name_en": "Jell-O Peach", "name_es": "Jell-O Peach", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "grape",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "other_fruit"],
+    "labels": { "en": "Grape", "es": "uva" },
+    "definitions": {
+      "en": "Sweet, fruity, floral, slightly sour, musty.",
+      "es": "Dulce-ácido, floral, algo mohoso."
+    },
+    "references": [
+      { "name_en": "Welch's Concord Grape Juice", "name_es": "Welch's Concord Grape Juice", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "cherry",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "other_fruit"],
+    "labels": { "en": "Cherry", "es": "cereza" },
+    "definitions": {
+      "en": "Sour-sweet, fruity, slightly bitter, floral.",
+      "es": "Dulce-ácido, floral, algo amarga."
+    },
+    "references": [
+      { "name_en": "R.W. Knudsen Tart Cherry Juice", "name_es": "R.W. Knudsen Tart Cherry Juice", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "pomegranate",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "other_fruit"],
+    "labels": { "en": "Pomegranate", "es": "granada" },
+    "definitions": {
+      "en": "Sour-sweet, dark, slightly musty/earthy, astringent.",
+      "es": "Dulce-ácido, oscuro, algo astringente."
+    },
+    "references": [
+      { "name_en": "R.W. Knudsen Pomegranate", "name_es": "R.W. Knudsen Pomegranate", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "coconut",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "other_fruit"],
+    "labels": { "en": "Coconut", "es": "coco" },
+    "definitions": {
+      "en": "Slightly sweet, nutty, somewhat woody.",
+      "es": "Dulce-suave, anuezado, leñoso."
+    },
+    "references": [
+      { "name_en": "Coconut imitation extract", "name_es": "Extracto de coco imitación", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "pineapple",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "other_fruit"],
+    "labels": { "en": "Pineapple", "es": "piña" },
+    "definitions": {
+      "en": "Sweet, slightly sharp tropical fruit.",
+      "es": "Dulce, algo agudo y tropical."
+    },
+    "references": [
+      { "name_en": "Dole Pineapple Juice", "name_es": "Dole Pineapple Juice", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "citrus_fruit",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "citrus"],
+    "labels": { "en": "Citrus Fruit", "es": "cítricos" },
+    "definitions": {
+      "en": "Citric, sour, astringent, peely, somewhat floral.",
+      "es": "Cítrico, ácido, astringente, a cáscara."
+    },
+    "references": [
+      { "name_en": "Lemon + lime peel", "name_es": "Cáscara de limón + lima", "source": "WCR_v1" },
+      { "name_en": "grapefruit peel", "name_es": "Cáscara de toronja", "source": "WCR_v1" },
+      { "name_en": "Five Alive", "name_es": "Five Alive", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "lemon",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "citrus"],
+    "labels": { "en": "Lemon", "es": "limón" },
+    "definitions": {
+      "en": "Citric, sour, slightly sweet, peely, floral.",
+      "es": "Cítrico ácido, ligeramente dulce, a cáscara."
+    },
+    "references": [
+      { "name_en": "Fresh lemon juice", "name_es": "Jugo de limón fresco", "source": "WCR_v1" },
+      { "name_en": "Le Nez du Café n.15", "name_es": "Le Nez du Café n.15", "source": "Le_Nez_du_Cafe" }
+    ]
+  },
+  {
+    "attribute_id": "grapefruit",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "citrus"],
+    "labels": { "en": "Grapefruit", "es": "toronja / pomelo" },
+    "definitions": {
+      "en": "Citric, sour, bitter, astringent, peely.",
+      "es": "Cítrico ácido-amargo, astringente."
+    },
+    "references": [
+      { "name_en": "Ocean Spray White Grapefruit", "name_es": "Ocean Spray White Grapefruit", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "orange",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "citrus"],
+    "labels": { "en": "Orange", "es": "naranja" },
+    "definitions": {
+      "en": "Citric, sweet, floral, slightly sour.",
+      "es": "Cítrico dulce, floral, algo ácido."
+    },
+    "references": [
+      { "name_en": "Tropicana 100% No Pulp", "name_es": "Tropicana 100% No Pulp", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "lime",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["fruity", "citrus"],
+    "labels": { "en": "Lime", "es": "lima" },
+    "definitions": {
+      "en": "Citric, sour, astringent, bitter, green, peely.",
+      "es": "Cítrico ácido y verde, a cáscara."
+    },
+    "references": [
+      { "name_en": "Lime peel", "name_es": "Cáscara de lima", "source": "WCR_v1" },
+      { "name_en": "ReaLime", "name_es": "ReaLime", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "sour_aromatics",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sour_fermented", "sour"],
+    "labels": { "en": "Sour Aromatics", "es": "aromáticos ácidos" },
+    "definitions": {
+      "en": "The aromatic impression of a sour product.",
+      "es": "Impresión aromática de algo ácido."
+    },
+    "references": [
+      { "name_en": "Bush's Pinto Beans (canned, drained)", "name_es": "Bush's Pinto Beans (en lata, escurridos)", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "acetic_acid",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sour_fermented", "sour"],
+    "labels": { "en": "Acetic Acid", "es": "ácido acético" },
+    "definitions": {
+      "en": "Sour, astringent, slightly pungent vinegar note.",
+      "es": "Vinagre, ácido y astringente."
+    },
+    "references": [
+      { "name_en": "0.5–2% acetic acid solution", "name_es": "Solución de ácido acético 0.5–2%", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "butyric_acid",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sour_fermented", "sour"],
+    "labels": { "en": "Butyric Acid", "es": "ácido butírico" },
+    "definitions": {
+      "en": "Sour, fermented-dairy note like aged cheese.",
+      "es": "Lácteo fermentado, queso añejo."
+    },
+    "references": [
+      { "name_en": "0.4 µl/l butyric acid", "name_es": "Ácido butírico 0.4 µl/l", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "isovaleric_acid",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sour_fermented", "sour"],
+    "labels": { "en": "Isovaleric Acid", "es": "ácido isovalérico" },
+    "definitions": {
+      "en": "Pungent, sour, sweat-and-aged-cheese note.",
+      "es": "Ácido pungente, queso curado."
+    },
+    "references": [
+      { "name_en": "0.2 µl/l isovaleric acid", "name_es": "Ácido isovalérico 0.2 µl/l", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "citric_acid",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sour_fermented", "sour"],
+    "labels": { "en": "Citric Acid", "es": "ácido cítrico" },
+    "definitions": {
+      "en": "Mild, clean sour with citrus and astringency.",
+      "es": "Ácido limpio, cítrico."
+    },
+    "references": [
+      { "name_en": "0.025–0.05% citric acid", "name_es": "Ácido cítrico 0.025–0.05%", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "malic_acid",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sour_fermented", "sour"],
+    "labels": { "en": "Malic Acid", "es": "ácido málico" },
+    "definitions": {
+      "en": "Sour, sharp, slightly fruity, astringent.",
+      "es": "Ácido frutal, manzana verde."
+    },
+    "references": [
+      { "name_en": "0.5–1.0 g/l malic acid", "name_es": "Ácido málico 0.5–1.0 g/l", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "alcohol",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sour_fermented", "alcohol_fermented"],
+    "labels": { "en": "Alcohol", "es": "alcohol" },
+    "definitions": {
+      "en": "Pungent, chemical, distilled-spirits aromatic.",
+      "es": "Pungente, químico, a destilados."
+    },
+    "references": [
+      { "name_en": "Vodka diluted", "name_es": "Vodka diluido", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "whiskey",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sour_fermented", "alcohol_fermented"],
+    "labels": { "en": "Whiskey", "es": "whisky" },
+    "definitions": {
+      "en": "Distilled-from-fermented-grain note.",
+      "es": "Destilado de granos fermentados."
+    },
+    "references": [
+      { "name_en": "Jack Daniel's", "name_es": "Jack Daniel's", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "winey",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sour_fermented", "alcohol_fermented"],
+    "labels": { "en": "Winey", "es": "vinoso" },
+    "definitions": {
+      "en": "Sharp, pungent, fruity, alcohol-like.",
+      "es": "Vinoso, frutal y alcohólico."
+    },
+    "references": [
+      { "name_en": "Yellow Tail Cabernet", "name_es": "Yellow Tail Cabernet", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "fermented",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sour_fermented", "alcohol_fermented"],
+    "labels": { "en": "Fermented", "es": "fermentado" },
+    "definitions": {
+      "en": "Pungent, sweet-sour, yeasty, alcohol-like.",
+      "es": "Pungente, dulce-ácido, levaduroso."
+    },
+    "references": [
+      { "name_en": "Guinness Extra Stout", "name_es": "Guinness Extra Stout", "source": "WCR_v1" },
+      { "name_en": "fermented grass", "name_es": "Pasto fermentado", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "overripe",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sour_fermented", "alcohol_fermented"],
+    "labels": { "en": "Overripe / Near-fermented", "es": "sobremaduro / casi fermentado" },
+    "definitions": {
+      "en": "Sweet-sour, damp, musty, past-ripe note.",
+      "es": "Dulzón, húmedo, sobremaduro."
+    },
+    "references": [
+      { "name_en": "Overripe banana, frozen + microwaved", "name_es": "Plátano sobremaduro, congelado y descongelado en microondas", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "olive_oil",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["green_vegetative"],
+    "labels": { "en": "Olive Oil", "es": "aceite de oliva" },
+    "definitions": {
+      "en": "Light, oily, buttery-green-peppery.",
+      "es": "Oleoso, ligeramente verde y picante."
+    },
+    "references": [
+      { "name_en": "Bertolli EVOO", "name_es": "Bertolli EVOO", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "raw",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["green_vegetative"],
+    "labels": { "en": "Raw", "es": "crudo" },
+    "definitions": {
+      "en": "Aromatic of uncooked products.",
+      "es": "Aromático de productos sin cocinar."
+    },
+    "references": [
+      { "name_en": "Fisher Whole Almonds", "name_es": "Fisher Whole Almonds", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "green",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["green_vegetative"],
+    "labels": { "en": "Green", "es": "verde" },
+    "definitions": {
+      "en": "Fresh plant matter — leafy, viny, grassy, peapod.",
+      "es": "Vegetal fresco, herbáceo."
+    },
+    "references": [
+      { "name_en": "Parsley water", "name_es": "Agua de perejil", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "fresh",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["green_vegetative"],
+    "labels": { "en": "Fresh", "es": "fresco" },
+    "definitions": {
+      "en": "Newly-cut grass, sweet and pungent.",
+      "es": "Pasto recién cortado."
+    },
+    "references": [
+      { "name_en": "Fresh green grass", "name_es": "Pasto verde fresco", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "dark_green",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["green_vegetative"],
+    "labels": { "en": "Dark Green", "es": "verde oscuro" },
+    "definitions": {
+      "en": "Cooked-green-vegetable, slightly bitter, dusty.",
+      "es": "Verdura cocida, algo amarga."
+    },
+    "references": [
+      { "name_en": "Canned green beans/spinach liquid", "name_es": "Líquido de habichuelas/espinaca enlatadas", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "vegetative",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["green_vegetative"],
+    "labels": { "en": "Vegetative", "es": "vegetal" },
+    "definitions": {
+      "en": "Sharp, slightly pungent green plant.",
+      "es": "Vegetal nítido, algo pungente."
+    },
+    "references": [
+      { "name_en": "Canned asparagus", "name_es": "Espárragos enlatados", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "hay_like",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["green_vegetative"],
+    "labels": { "en": "Hay-like", "es": "a heno" },
+    "definitions": {
+      "en": "Sweet, dry, dusty, slightly green dry-grass note.",
+      "es": "A heno seco, dulzón."
+    },
+    "references": [
+      { "name_en": "McCormick Parsley Flakes", "name_es": "McCormick Parsley Flakes", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "herb_like",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["green_vegetative"],
+    "labels": { "en": "Herb-like", "es": "herbal" },
+    "definitions": {
+      "en": "Sweet, slightly pungent, slightly bitter green herb.",
+      "es": "Herbal verde, algo pungente."
+    },
+    "references": [
+      { "name_en": "Bay+thyme+basil mix", "name_es": "Mezcla de laurel, tomillo y albahaca", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "beany",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["green_vegetative"],
+    "labels": { "en": "Beany", "es": "a frijol" },
+    "definitions": {
+      "en": "Bean/legume note: musty, dusty, sour, starchy, green.",
+      "es": "A frijol/leguminosa."
+    },
+    "references": [
+      { "name_en": "Pinto beans, drained", "name_es": "Frijoles pintos escurridos", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "peapod",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["green_vegetative"],
+    "labels": { "en": "Peapod", "es": "vaina de arveja / chícharo" },
+    "definitions": {
+      "en": "Sweet, beany, fresh, raw, musty-green note.",
+      "es": "Vaina verde, dulzona y herbácea."
+    },
+    "references": [
+      { "name_en": "Le Nez du Café n.3 'garden peas'", "name_es": "Le Nez du Café n.3 'arvejas de jardín'", "source": "Le_Nez_du_Cafe" }
+    ]
+  },
+  {
+    "attribute_id": "under_ripe",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["green_vegetative"],
+    "labels": { "en": "Under-ripe", "es": "verde / inmaduro" },
+    "definitions": {
+      "en": "Aromatic of green/under-ripe fruit.",
+      "es": "Frutal inmaduro."
+    },
+    "references": [
+      { "name_en": "Grapefruit peel", "name_es": "Cáscara de toronja", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "stale",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "stale_papery"],
+    "labels": { "en": "Stale", "es": "rancio" },
+    "definitions": {
+      "en": "Aromatic characterised by lack of freshness.",
+      "es": "Falto de frescura."
+    },
+    "references": [
+      { "name_en": "Mama Mary's Pizza Crust", "name_es": "Mama Mary's Pizza Crust", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "papery",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "stale_papery"],
+    "labels": { "en": "Papery", "es": "a papel" },
+    "definitions": {
+      "en": "Aromatic of white paper cups.",
+      "es": "A papel/filtro."
+    },
+    "references": [
+      { "name_en": "Pure Brew filters in water", "name_es": "Filtros Pure Brew en agua", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "cardboard",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "stale_papery"],
+    "labels": { "en": "Cardboard", "es": "a cartón" },
+    "definitions": {
+      "en": "Aromatic of cardboard packaging.",
+      "es": "A cartón."
+    },
+    "references": [
+      { "name_en": "Cardboard square in water", "name_es": "Cuadrado de cartón en agua", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "musty_earthy",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "earthy"],
+    "labels": { "en": "Musty / Earthy", "es": "mohoso / terroso" },
+    "definitions": {
+      "en": "Sweet, heavy, decaying-vegetation, damp-soil.",
+      "es": "Tierra húmeda, vegetación en descomposición."
+    },
+    "references": [
+      { "name_en": "Miracle-Gro Potting Mix", "name_es": "Miracle-Gro Potting Mix", "source": "WCR_v1" },
+      { "name_en": "Le Nez du Café n.1", "name_es": "Le Nez du Café n.1", "source": "Le_Nez_du_Cafe" }
+    ]
+  },
+  {
+    "attribute_id": "musty_dusty",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "earthy"],
+    "labels": { "en": "Musty / Dusty", "es": "mohoso / polvoriento" },
+    "definitions": {
+      "en": "Dry closed-air, attic/closet note.",
+      "es": "A buhardilla, polvoriento."
+    },
+    "references": [
+      { "name_en": "Kretschmer Wheat Germ", "name_es": "Kretschmer Wheat Germ", "source": "WCR_v1" },
+      { "name_en": "trimethoxybenzaldehyde", "name_es": "trimetoxibenzaldehído", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "moldy_damp",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "earthy"],
+    "labels": { "en": "Moldy / Damp", "es": "enmohecido / húmedo" },
+    "definitions": {
+      "en": "Damp, musty, sharp, slightly green basement note.",
+      "es": "A sótano húmedo."
+    },
+    "references": [
+      { "name_en": "2-Ethyl-1-Hexanol", "name_es": "2-etil-1-hexanol", "source": "WCR_v1" },
+      { "name_en": "tetrachloroanisole", "name_es": "tetracloroanisol", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "woody",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "earthy"],
+    "labels": { "en": "Woody", "es": "amaderado" },
+    "definitions": {
+      "en": "Sweet, brown, musty, dark, tree-bark note.",
+      "es": "Amaderado dulzón."
+    },
+    "references": [
+      { "name_en": "Diamond Walnuts", "name_es": "Diamond Walnuts", "source": "WCR_v1" },
+      { "name_en": "popsicle sticks", "name_es": "Palitos de paleta", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "phenolic",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "animalic_phenolic"],
+    "labels": { "en": "Phenolic", "es": "fenólico" },
+    "definitions": {
+      "en": "Damp, musty, animal-hide, tack-room note.",
+      "es": "A cuero húmedo, fenólico."
+    },
+    "references": [
+      { "name_en": "Phenylacetic acid", "name_es": "Ácido fenilacético", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "animalic",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "animalic_phenolic"],
+    "labels": { "en": "Animalic", "es": "animal" },
+    "definitions": {
+      "en": "Combination of farm-animal and live-animal notes.",
+      "es": "Animal, a establo."
+    },
+    "references": [
+      { "name_en": "Unflavored gelatin in water", "name_es": "Gelatina sin sabor en agua", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "meaty_brothy",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "animalic_phenolic"],
+    "labels": { "en": "Meaty / Brothy", "es": "cárnico / caldo" },
+    "definitions": {
+      "en": "Boiled-meat / soup-stock with weak meat notes.",
+      "es": "A caldo de carne."
+    },
+    "references": [
+      { "name_en": "Campbell's Beef Broth", "name_es": "Campbell's Beef Broth", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "medicinal",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "chemical"],
+    "labels": { "en": "Medicinal", "es": "medicinal" },
+    "definitions": {
+      "en": "Sterile, antiseptic, alcohol/iodine note.",
+      "es": "Antiséptico, a botiquín."
+    },
+    "references": [
+      { "name_en": "Iodine", "name_es": "Yodo", "source": "WCR_v1" },
+      { "name_en": "alcohol", "name_es": "alcohol", "source": "WCR_v1" },
+      { "name_en": "Le Nez du Café n.35", "name_es": "Le Nez du Café n.35", "source": "Le_Nez_du_Cafe" },
+      { "name_en": "Band-Aid", "name_es": "Band-Aid", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "rubber",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "chemical"],
+    "labels": { "en": "Rubber", "es": "caucho / hule" },
+    "definitions": {
+      "en": "Dark, heavy, slightly sharp/pungent rubber.",
+      "es": "A caucho."
+    },
+    "references": [
+      { "name_en": "A&W rubber bands", "name_es": "Bandas elásticas A&W", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "petroleum",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "chemical"],
+    "labels": { "en": "Petroleum", "es": "petróleo" },
+    "definitions": {
+      "en": "Crude-oil/heavy-oil chemical note.",
+      "es": "A petróleo."
+    },
+    "references": [
+      { "name_en": "Vaseline", "name_es": "Vaselina", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "skunky",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["other", "chemical"],
+    "labels": { "en": "Skunky", "es": "a zorrillo" },
+    "definitions": {
+      "en": "Skunk-spray combination.",
+      "es": "A mofeta."
+    },
+    "references": [
+      { "name_en": "Latex balloons in jar", "name_es": "Globos de látex en frasco", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "roasted",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["roasted"],
+    "labels": { "en": "Roasted", "es": "tostado" },
+    "definitions": {
+      "en": "Dark-brown high-heat dry-cooked impression, no burnt notes.",
+      "es": "Tostado profundo sin quemado."
+    },
+    "references": [
+      { "name_en": "Roasted blanched peanuts (varied times)", "name_es": "Maní blanqueado tostado (tiempos variados)", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "brown_roast",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["roasted"],
+    "labels": { "en": "Brown, Roast", "es": "pardo, tostado" },
+    "definitions": {
+      "en": "Rich, full, round dark roast aromatic.",
+      "es": "Pardo, redondo, tostado."
+    },
+    "references": [
+      { "name_en": "Pinto beans", "name_es": "Frijoles pintos", "source": "WCR_v1" },
+      { "name_en": "brown sugar", "name_es": "azúcar morena", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "acrid",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["roasted"],
+    "labels": { "en": "Acrid", "es": "acre" },
+    "definitions": {
+      "en": "Sharp, pungent, bitter, over-roasted note.",
+      "es": "Pungente y amargo, sobre-tostado."
+    },
+    "references": [
+      { "name_en": "Alf's Red Wheat Cereal", "name_es": "Alf's Red Wheat Cereal", "source": "WCR_v1" },
+      { "name_en": "Wright's Liquid Smoke", "name_es": "Wright's Liquid Smoke", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "ashy",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["roasted"],
+    "labels": { "en": "Ashy", "es": "a ceniza" },
+    "definitions": {
+      "en": "Dry, dusty, dirty, smoky residue note.",
+      "es": "Ceniza seca y polvorienta."
+    },
+    "references": [
+      { "name_en": "Black cocoa", "name_es": "Cacao negro", "source": "WCR_v1" },
+      { "name_en": "benzyl disulfide", "name_es": "Disulfuro de bencilo", "source": "WCR_v1" },
+      { "name_en": "paper ashes", "name_es": "Cenizas de papel", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "burnt",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["roasted"],
+    "labels": { "en": "Burnt", "es": "quemado" },
+    "definitions": {
+      "en": "Dark over-cooked product, sharp/bitter/sour.",
+      "es": "Quemado, agudo y amargo."
+    },
+    "references": [
+      { "name_en": "Over-roasted peanuts", "name_es": "Maní sobre-tostado", "source": "WCR_v1" },
+      { "name_en": "benzyl disulfide", "name_es": "Disulfuro de bencilo", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "smoky",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["roasted"],
+    "labels": { "en": "Smoky", "es": "ahumado" },
+    "definitions": {
+      "en": "Acute pungent combustion-of-wood/leaves note.",
+      "es": "Ahumado pungente."
+    },
+    "references": [
+      { "name_en": "Benzyl disulfide", "name_es": "Disulfuro de bencilo", "source": "WCR_v1" },
+      { "name_en": "smoked almonds", "name_es": "Almendras ahumadas", "source": "WCR_v1" },
+      { "name_en": "wood ashes", "name_es": "Cenizas de madera", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "tobacco",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["tobacco"],
+    "labels": { "en": "Tobacco", "es": "tabaco" },
+    "definitions": {
+      "en": "Brown, slightly sweet, slightly pungent cured tobacco.",
+      "es": "Tabaco curado."
+    },
+    "references": [
+      { "name_en": "Le Nez du Café n.33", "name_es": "Le Nez du Café n.33", "source": "Le_Nez_du_Cafe" },
+      { "name_en": "cigar tobacco", "name_es": "Tabaco de puro", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "pipe_tobacco",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["tobacco"],
+    "labels": { "en": "Pipe Tobacco", "es": "tabaco de pipa" },
+    "definitions": {
+      "en": "Brown, sweet, slightly pungent, fruity-floral cured tobacco.",
+      "es": "Tabaco de pipa, dulzón."
+    },
+    "references": [
+      { "name_en": "Carter Hall Pipe Tobacco", "name_es": "Carter Hall Pipe Tobacco", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "grain",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["cereal"],
+    "labels": { "en": "Grain", "es": "grano" },
+    "definitions": {
+      "en": "Light brown, dusty, musty, sweet grain note.",
+      "es": "Grano dulzón y polvoriento."
+    },
+    "references": [
+      { "name_en": "Mixed Rice Chex/Wheaties/Quaker Oats", "name_es": "Mezcla de Rice Chex/Wheaties/Quaker Oats", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "malt",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["cereal"],
+    "labels": { "en": "Malt", "es": "malta" },
+    "definitions": {
+      "en": "Light brown, dusty, sweet, sour/fermented grain.",
+      "es": "Malta tostada, dulce-ácida."
+    },
+    "references": [
+      { "name_en": "Post Grape-Nuts", "name_es": "Post Grape-Nuts", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "pungent",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["spice"],
+    "labels": { "en": "Pungent", "es": "pungente" },
+    "definitions": {
+      "en": "Sharp, physically penetrating nasal sensation.",
+      "es": "Sensación pungente, picante en la nariz."
+    },
+    "references": [
+      { "name_en": "Orange essential oil", "name_es": "Aceite esencial de naranja", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "pepper",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["spice"],
+    "labels": { "en": "Pepper", "es": "pimienta" },
+    "definitions": {
+      "en": "Spicy, pungent, musty, woody black-pepper note.",
+      "es": "A pimienta negra."
+    },
+    "references": [
+      { "name_en": "McCormick Black Pepper", "name_es": "McCormick Black Pepper", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "anise",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["spice"],
+    "labels": { "en": "Anise", "es": "anís" },
+    "definitions": {
+      "en": "Pungent, sweet, brown, caramelised, slightly floral/medicinal.",
+      "es": "Anís dulce y caramelizado."
+    },
+    "references": [
+      { "name_en": "Tone's Anise Extract", "name_es": "Tone's Anise Extract", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "nutmeg",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["spice"],
+    "labels": { "en": "Nutmeg", "es": "nuez moscada" },
+    "definitions": {
+      "en": "Wet, brown, woody, pungent, lemony-petroleum note.",
+      "es": "Nuez moscada, leñosa."
+    },
+    "references": [
+      { "name_en": "McCormick Nutmeg", "name_es": "McCormick Nutmeg", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "spice_brown",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["spice"],
+    "labels": { "en": "Spice, Brown", "es": "especia parda" },
+    "definitions": {
+      "en": "Sweet, brown spice complex (cinnamon/clove/nutmeg/allspice).",
+      "es": "Especias dulces pardas."
+    },
+    "references": [
+      { "name_en": "Cinnamon stick", "name_es": "Rama de canela", "source": "WCR_v1" },
+      { "name_en": "whole nutmeg+clove", "name_es": "Nuez moscada y clavo enteros", "source": "WCR_v1" },
+      { "name_en": "spice mix", "name_es": "Mezcla de especias", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "cinnamon",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["spice"],
+    "labels": { "en": "Cinnamon", "es": "canela" },
+    "definitions": {
+      "en": "Sweet, brown, slightly woody, slightly pungent, spicy.",
+      "es": "Canela dulce y leñosa."
+    },
+    "references": [
+      { "name_en": "McCormick Ground Cinnamon", "name_es": "McCormick Ground Cinnamon", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "clove",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["spice"],
+    "labels": { "en": "Clove", "es": "clavo" },
+    "definitions": {
+      "en": "Sweet, brown, spicy, pungent, floral, citrus, medicinal, minty.",
+      "es": "Clavo dulce y pungente."
+    },
+    "references": [
+      { "name_en": "Le Nez du Café n.7 'clove'", "name_es": "Le Nez du Café n.7 'clavo'", "source": "Le_Nez_du_Cafe" }
+    ]
+  },
+  {
+    "attribute_id": "nutty",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["nutty_cocoa", "nutty"],
+    "labels": { "en": "Nutty", "es": "anuezado" },
+    "definitions": {
+      "en": "Slightly sweet, brown, woody, oily, musty, astringent, bitter.",
+      "es": "Anuezado dulzón."
+    },
+    "references": [
+      { "name_en": "Le Nez du Café n.29", "name_es": "Le Nez du Café n.29", "source": "Le_Nez_du_Cafe" },
+      { "name_en": "almond+walnut puree", "name_es": "Puré de almendra y nuez", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "almond",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["nutty_cocoa", "nutty"],
+    "labels": { "en": "Almond", "es": "almendra" },
+    "definitions": {
+      "en": "Sweet, light brown, woody, buttery, floral-fruity, slightly smoky.",
+      "es": "Almendra tostada."
+    },
+    "references": [
+      { "name_en": "Le Nez du Café n.27", "name_es": "Le Nez du Café n.27", "source": "Le_Nez_du_Cafe" }
+    ]
+  },
+  {
+    "attribute_id": "hazelnut",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["nutty_cocoa", "nutty"],
+    "labels": { "en": "Hazelnut / Filbert", "es": "avellana" },
+    "definitions": {
+      "en": "Woody, brown, sweet, musty, cedar-like.",
+      "es": "Avellana tostada."
+    },
+    "references": [
+      { "name_en": "Le Nez du Café n.29", "name_es": "Le Nez du Café n.29", "source": "Le_Nez_du_Cafe" },
+      { "name_en": "McCormick Hazelnut Extract", "name_es": "McCormick Hazelnut Extract", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "peanut",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["nutty_cocoa", "nutty"],
+    "labels": { "en": "Peanut", "es": "cacahuete / maní" },
+    "definitions": {
+      "en": "Sweet, light brown, oily, slightly musty, beany.",
+      "es": "Maní tostado, oleoso."
+    },
+    "references": [
+      { "name_en": "Roasted blanched peanuts", "name_es": "Maní blanqueado tostado", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "chocolate",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["nutty_cocoa", "cocoa"],
+    "labels": { "en": "Chocolate", "es": "chocolate" },
+    "definitions": {
+      "en": "Cocoa, cocoa butter, dark-roast aromatic blend.",
+      "es": "Chocolate, manteca de cacao."
+    },
+    "references": [
+      { "name_en": "Nestlé Toll House Semi-Sweet", "name_es": "Nestlé Toll House Semi-Sweet", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "cocoa",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["nutty_cocoa", "cocoa"],
+    "labels": { "en": "Cocoa", "es": "cacao" },
+    "definitions": {
+      "en": "Brown, sweet, dusty, musty, often bitter cocoa-bean note.",
+      "es": "Cacao en polvo, dulzón-amargo."
+    },
+    "references": [
+      { "name_en": "Hershey's Cocoa Powder", "name_es": "Hershey's Cocoa Powder", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "dark_chocolate",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["nutty_cocoa", "cocoa"],
+    "labels": { "en": "Dark Chocolate", "es": "chocolate oscuro" },
+    "definitions": {
+      "en": "High-intensity cocoa+butter with dark-roast/spicy/burnt notes, astringent and bitter.",
+      "es": "Chocolate amargo intenso."
+    },
+    "references": [
+      { "name_en": "Lindt 90% Cocoa", "name_es": "Lindt 90% Cocoa", "source": "WCR_v1" },
+      { "name_en": "Dove Promises", "name_es": "Dove Promises", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "sweet_aromatics",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sweet"],
+    "labels": { "en": "Sweet Aromatics", "es": "aromáticos dulces" },
+    "definitions": {
+      "en": "Aromatic impression of a sweet substance.",
+      "es": "Impresión aromática dulce."
+    },
+    "references": [
+      { "name_en": "Vanillin in water", "name_es": "Vainillina en agua", "source": "WCR_v1" },
+      { "name_en": "Lorna Doone cookies", "name_es": "Galletas Lorna Doone", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "overall_sweet",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sweet"],
+    "labels": { "en": "Overall Sweet", "es": "dulzor general" },
+    "definitions": {
+      "en": "Combined sweet taste + aromatics.",
+      "es": "Combinación de dulzor y aroma dulce."
+    },
+    "references": [
+      { "name_en": "Post Shredded Wheat", "name_es": "Post Shredded Wheat", "source": "WCR_v1" },
+      { "name_en": "Lorna Doone", "name_es": "Lorna Doone", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "vanilla",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sweet"],
+    "labels": { "en": "Vanilla", "es": "vainilla" },
+    "definitions": {
+      "en": "Woody, slightly chemical vanilla-bean note with brown/beany/floral/spicy notes.",
+      "es": "Vainilla natural."
+    },
+    "references": [
+      { "name_en": "Le Nez du Café n.10", "name_es": "Le Nez du Café n.10", "source": "Le_Nez_du_Cafe" },
+      { "name_en": "Spice Islands Vanilla Bean", "name_es": "Spice Islands Vanilla Bean", "source": "WCR_v1" },
+      { "name_en": "McCormick Vanilla", "name_es": "McCormick Vanilla", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "vanillin",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sweet"],
+    "labels": { "en": "Vanillin", "es": "vainillina" },
+    "definitions": {
+      "en": "Extremely sweet, non-natural vanilla / cotton-candy / marshmallow note.",
+      "es": "Vainillina sintética muy dulce."
+    },
+    "references": [
+      { "name_en": "Fisher Scientific Vanillin", "name_es": "Fisher Scientific Vanillin", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "brown_sugar",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sweet"],
+    "labels": { "en": "Brown Sugar", "es": "azúcar morena" },
+    "definitions": {
+      "en": "Rich, full, round, sweet, dark aromatic.",
+      "es": "Azúcar morena dulzón."
+    },
+    "references": [
+      { "name_en": "C&H Golden Brown", "name_es": "C&H Golden Brown", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "molasses",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sweet"],
+    "labels": { "en": "Molasses", "es": "melaza" },
+    "definitions": {
+      "en": "Dark caramelised top notes; sharp, acrid, sulfurous.",
+      "es": "Melaza oscura."
+    },
+    "references": [
+      { "name_en": "Grandma's Original Molasses", "name_es": "Grandma's Original Molasses", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "maple_syrup",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sweet"],
+    "labels": { "en": "Maple Syrup", "es": "jarabe de arce / maple" },
+    "definitions": {
+      "en": "Woody, sweet, caramelised, slightly green.",
+      "es": "Jarabe de arce, leñoso-dulce."
+    },
+    "references": [
+      { "name_en": "Le Nez du Café n.24", "name_es": "Le Nez du Café n.24", "source": "Le_Nez_du_Cafe" },
+      { "name_en": "Maple Grove Farms", "name_es": "Maple Grove Farms", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "caramelised",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sweet"],
+    "labels": { "en": "Caramelised", "es": "caramelo / caramelizado" },
+    "definitions": {
+      "en": "Round, full-bodied, medium-brown, sweet cooked-sugar; no burnt.",
+      "es": "Caramelo dulce sin quemado."
+    },
+    "references": [
+      { "name_en": "Le Nez du Café n.25", "name_es": "Le Nez du Café n.25", "source": "Le_Nez_du_Cafe" },
+      { "name_en": "caramelised cane sugar", "name_es": "Azúcar de caña caramelizada", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "honey",
+    "section": ["fragrance_aroma", "flavor_aftertaste"],
+    "cata_path": ["sweet"],
+    "labels": { "en": "Honey", "es": "miel" },
+    "definitions": {
+      "en": "Sweet, light brown, slightly spicy honey note.",
+      "es": "Miel suave."
+    },
+    "references": [
+      { "name_en": "Busy Bee Pure Clover", "name_es": "Busy Bee Pure Clover", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "sweet",
+    "section": ["main_tastes"],
+    "cata_path": ["main_tastes"],
+    "labels": { "en": "Sweet", "es": "dulce" },
+    "definitions": {
+      "en": "Fundamental sweet taste (sucrose-typical).",
+      "es": "Sabor básico dulce."
+    },
+    "references": [
+      { "name_en": "0.52% sucrose solution (white sugar)", "name_es": "Solución de sacarosa 0.52% (azúcar blanca)", "source": "SCA_103_2024" }
+    ]
+  },
+  {
+    "attribute_id": "sour",
+    "section": ["main_tastes"],
+    "cata_path": ["main_tastes"],
+    "labels": { "en": "Sour", "es": "ácido" },
+    "definitions": {
+      "en": "Fundamental sour taste (citric-acid-associated).",
+      "es": "Sabor básico ácido."
+    },
+    "references": [
+      { "name_en": "0.04% citric acid solution", "name_es": "Solución de ácido cítrico 0.04%", "source": "SCA_103_2024" }
+    ]
+  },
+  {
+    "attribute_id": "salty",
+    "section": ["main_tastes"],
+    "cata_path": ["main_tastes"],
+    "labels": { "en": "Salty", "es": "salado" },
+    "definitions": {
+      "en": "Fundamental salty taste (sodium-chloride-typical).",
+      "es": "Sabor básico salado."
+    },
+    "references": [
+      { "name_en": "0.20% NaCl solution", "name_es": "Solución de NaCl 0.20%", "source": "SCA_103_2024" }
+    ]
+  },
+  {
+    "attribute_id": "bitter",
+    "section": ["main_tastes"],
+    "cata_path": ["main_tastes"],
+    "labels": { "en": "Bitter", "es": "amargo" },
+    "definitions": {
+      "en": "Fundamental bitter taste (caffeine-associated).",
+      "es": "Sabor básico amargo."
+    },
+    "references": [
+      { "name_en": "Dark-roasted coffee (~Agtron #35)", "name_es": "Café tostado oscuro (~Agtron #35)", "source": "SCA_103_2024" }
+    ]
+  },
+  {
+    "attribute_id": "umami",
+    "section": ["main_tastes"],
+    "cata_path": ["main_tastes"],
+    "labels": { "en": "Umami", "es": "umami" },
+    "definitions": {
+      "en": "Savoury 'fifth taste'.",
+      "es": "Sabor básico umami."
+    },
+    "references": [
+      { "name_en": "0.10% MSG solution", "name_es": "Solución de MSG 0.10%", "source": "SCA_103_2024" }
+    ]
+  },
+  {
+    "attribute_id": "rough",
+    "section": ["mouthfeel"],
+    "cata_path": ["mouthfeel"],
+    "labels": { "en": "Rough (Gritty/Chalky/Sandy)", "es": "áspero (granuloso/calcáreo/arenoso)" },
+    "definitions": {
+      "en": "Feel of small particles in the brew.",
+      "es": "Sensación de partículas pequeñas."
+    },
+    "references": [
+      { "name_en": "Ibrik/cezve coffee", "name_es": "Café ibrik/cezve", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "oily",
+    "section": ["mouthfeel"],
+    "cata_path": ["mouthfeel"],
+    "labels": { "en": "Oily", "es": "aceitoso" },
+    "definitions": {
+      "en": "Feel of oils in the mouth.",
+      "es": "Sensación oleosa."
+    },
+    "references": [
+      { "name_en": "Coffee with a small amount of butter", "name_es": "Café con una pequeña cantidad de mantequilla", "source": "WCR_v1" },
+      { "name_en": "Half & Half", "name_es": "Half & Half", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "smooth",
+    "section": ["mouthfeel"],
+    "cata_path": ["mouthfeel"],
+    "labels": { "en": "Smooth (Velvety/Silky/Syrupy)", "es": "suave (aterciopelado/sedoso/jarabeado)" },
+    "definitions": {
+      "en": "Smooth mouth texture.",
+      "es": "Textura suave en boca."
+    },
+    "references": [
+      { "name_en": "Syrup", "name_es": "Jarabe", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "mouth_drying",
+    "section": ["mouthfeel"],
+    "cata_path": ["mouthfeel"],
+    "labels": { "en": "Mouth-drying", "es": "astringente / reseca" },
+    "definitions": {
+      "en": "Drying, puckering, tingling on tongue/mouth.",
+      "es": "Astringencia, reseca la boca."
+    },
+    "references": [
+      { "name_en": "0.05–0.07% alum solution", "name_es": "Solución de alumbre 0.05–0.07%", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "metallic",
+    "section": ["mouthfeel"],
+    "cata_path": ["mouthfeel"],
+    "labels": { "en": "Metallic", "es": "metálico" },
+    "definitions": {
+      "en": "Aromatic + mouthfeel of tin can / aluminium foil.",
+      "es": "Sensación a metal."
+    },
+    "references": [
+      { "name_en": "0.10% potassium chloride solution", "name_es": "Solución de cloruro de potasio 0.10%", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "overall_impact",
+    "section": ["amplitude"],
+    "cata_path": ["amplitude"],
+    "labels": { "en": "Overall Impact", "es": "impacto general" },
+    "definitions": {
+      "en": "Total perceived intensity of aroma, flavor and aftertaste taken as a whole — the combined depth and presence of the cup's olfactory and gustatory impression.",
+      "es": "Intensidad total percibida del aroma, sabor y regusto en su conjunto — la profundidad y presencia combinada de la impresión olfativa y gustativa de la taza."
+    },
+    "references": [
+      { "name_en": "WCR Sensory Lexicon — Amplitude attribute (legacy reference, no aroma standard)", "name_es": "WCR Sensory Lexicon — atributo de amplitud (referencia heredada, sin estándar aromático)", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "blended",
+    "section": ["amplitude"],
+    "cata_path": ["amplitude"],
+    "labels": { "en": "Blended", "es": "integrado" },
+    "definitions": {
+      "en": "Degree to which the individual aromatic and flavor notes integrate into a single, harmonious impression rather than presenting as separate, disjointed elements.",
+      "es": "Grado en que las notas aromáticas y de sabor individuales se integran en una impresión única y armónica, en lugar de presentarse como elementos separados o desunidos."
+    },
+    "references": [
+      { "name_en": "WCR Sensory Lexicon — Amplitude attribute (legacy reference, no aroma standard)", "name_es": "WCR Sensory Lexicon — atributo de amplitud (referencia heredada, sin estándar aromático)", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "longevity",
+    "section": ["amplitude"],
+    "cata_path": ["amplitude"],
+    "labels": { "en": "Longevity", "es": "persistencia" },
+    "definitions": {
+      "en": "Persistence and duration of aromatic and flavor sensations in the mouth and retronasal passage after the coffee is swallowed.",
+      "es": "Persistencia y duración de las sensaciones aromáticas y de sabor en la boca y vía retronasal después de tragar el café."
+    },
+    "references": [
+      { "name_en": "WCR Sensory Lexicon — Amplitude attribute (legacy reference, no aroma standard)", "name_es": "WCR Sensory Lexicon — atributo de amplitud (referencia heredada, sin estándar aromático)", "source": "WCR_v1" }
+    ]
+  },
+  {
+    "attribute_id": "body_fullness",
+    "section": ["amplitude"],
+    "cata_path": ["amplitude"],
+    "labels": { "en": "Body / Fullness", "es": "cuerpo / plenitud" },
+    "definitions": {
+      "en": "Legacy WCR amplitude attribute describing the perceived weight, density and substance of the brew in the mouth. Distinct from the CVA mouthfeel CATA category — this is the holistic amplitude descriptor used on the 2004 form.",
+      "es": "Atributo heredado de amplitud del WCR que describe el peso, densidad y sustancia percibidos del licor en la boca. Distinto de la categoría CATA de sensación en boca de la CVA — este es el descriptor holístico de amplitud utilizado en el formulario de 2004."
+    },
+    "references": [
+      { "name_en": "WCR Sensory Lexicon — Amplitude attribute (legacy reference, no aroma standard)", "name_es": "WCR Sensory Lexicon — atributo de amplitud (referencia heredada, sin estándar aromático)", "source": "WCR_v1" }
+    ]
+  }
+]
