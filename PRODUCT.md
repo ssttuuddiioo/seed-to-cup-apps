@@ -38,7 +38,7 @@ The `descriptive` and `affective` blobs are jsonb because the SCA updates the le
 ## Content model
 Reference data lives in `seed/`:
 - `seed/lexicon.json` — 110 WCR attributes with EN/ES labels, definitions, references, CATA paths
-- `seed/colombia-regions.json` — 23 departments grouped into 4 zones, with PDO badges
+- `seed/colombia-regions.json` — 18 departments grouped into 4 zones, with PDO badges
 - `seed/colombia-varieties.json` — 12+ varieties with cup profiles and parentage
 - `seed/colombia-processes.json` — washing, honey, natural, anaeróbico, choque térmico, co-fermentación, etc.
 - `seed/origen-descriptors.json` — Spanish-Colombia descriptor extension (panela, mora, lulo, guanábana, bocadillo, mortiño, curuba, tabaco rubio, almíbar, miel de caña), each linked to a parent SCA CATA category

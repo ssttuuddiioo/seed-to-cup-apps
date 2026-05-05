@@ -30,7 +30,7 @@ Read `docs/research.md` section 2.1 and produce `seed/colombia-regions.json`.
 
 Zone IDs must be exactly: `"norte"`, `"centro"`, `"sur"`, `"oriente"`.
 
-Include all 23 producing departments grouped into the 4 zones from the research. The 6 regional PDOs to flag (set as the `pdo` string, otherwise `null`):
+Include all 18 departments enumerated in §2.1 grouped into the 4 zones from the research. The 6 regional PDOs to flag (set as the `pdo` string, otherwise `null`):
 - Café de Cauca
 - Café de Nariño
 - Café de Huila

@@ -1,0 +1,174 @@
+{
+  "zones": [
+    {
+      "id": "norte",
+      "label": { "es": "Norte", "en": "North" },
+      "altitude_band_masl": [1300, 1800],
+      "typical_profile": {
+        "es": "Más cuerpo, menos acidez; chocolate, nueces, tabaco, panela; cultivo bajo sombra. Santander suele mostrar notas de chocolate y tabaco.",
+        "en": "More body, less acidity; chocolate, nuts, tobacco, panela; shade-grown. Santander often shows chocolate and tobacco notes."
+      },
+      "departments": [
+        {
+          "id": "antioquia",
+          "label": { "es": "Antioquia", "en": "Antioquia" },
+          "pdo": null,
+          "notes": null
+        },
+        {
+          "id": "santander",
+          "label": { "es": "Santander", "en": "Santander" },
+          "pdo": "Café de Santander",
+          "notes": {
+            "es": "Charalá (provincia de Comunera) mantiene la tradición de cultivo bajo sombra. Caso de uso principal: Finca Bellavista (Oscar Castro), banda de altitud ~1.500–1.800 msnm.",
+            "en": "Charalá (Comunera province) maintains a shade-grown tradition. Primary use case: Finca Bellavista (Oscar Castro), altitude band ~1,500–1,800 masl."
+          }
+        },
+        {
+          "id": "norte_de_santander",
+          "label": { "es": "Norte de Santander", "en": "Norte de Santander" },
+          "pdo": null,
+          "notes": null
+        },
+        {
+          "id": "cesar",
+          "label": { "es": "Cesar", "en": "Cesar" },
+          "pdo": null,
+          "notes": null
+        },
+        {
+          "id": "la_guajira",
+          "label": { "es": "La Guajira", "en": "La Guajira" },
+          "pdo": null,
+          "notes": null
+        },
+        {
+          "id": "magdalena",
+          "label": { "es": "Magdalena", "en": "Magdalena" },
+          "pdo": "Café de la Sierra Nevada",
+          "notes": {
+            "es": "Sierra Nevada de Santa Marta.",
+            "en": "Sierra Nevada de Santa Marta."
+          }
+        }
+      ]
+    },
+    {
+      "id": "centro",
+      "label": { "es": "Centro", "en": "Central" },
+      "altitude_band_masl": [1300, 2000],
+      "typical_profile": {
+        "es": "'Colombiano clásico': panela, chocolate con leche, azúcar moreno, frutos rojos, acidez balanceada, cuerpo medio-alto.",
+        "en": "'Classic Colombian': panela, milk chocolate, brown sugar, red fruit, balanced acidity, medium-high body."
+      },
+      "departments": [
+        {
+          "id": "caldas",
+          "label": { "es": "Caldas", "en": "Caldas" },
+          "pdo": null,
+          "notes": null
+        },
+        {
+          "id": "risaralda",
+          "label": { "es": "Risaralda", "en": "Risaralda" },
+          "pdo": null,
+          "notes": null
+        },
+        {
+          "id": "quindio",
+          "label": { "es": "Quindío", "en": "Quindío" },
+          "pdo": null,
+          "notes": null
+        },
+        {
+          "id": "valle_del_cauca",
+          "label": { "es": "Valle del Cauca", "en": "Valle del Cauca" },
+          "pdo": null,
+          "notes": {
+            "es": "Producción cafetera concentrada en el norte del departamento.",
+            "en": "Coffee production concentrated in the northern part of the department."
+          }
+        },
+        {
+          "id": "cundinamarca",
+          "label": { "es": "Cundinamarca", "en": "Cundinamarca" },
+          "pdo": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": "sur",
+      "label": { "es": "Sur", "en": "South" },
+      "altitude_band_masl": [1500, 2300],
+      "typical_profile": {
+        "es": "Más brillante y compleja: fruta de hueso, cítricos, floral, acidez jugosa. Nariño suele dar cítricos + caramelo; Huila fruta de hueso + caramelo + panela; Cauca cacao + cuerpo.",
+        "en": "Brighter and more complex: stone fruit, citrus, floral, juicy acidity. Nariño often citrus + caramel; Huila stone fruit + caramel + panela; Cauca cocoa + body."
+      },
+      "departments": [
+        {
+          "id": "huila",
+          "label": { "es": "Huila", "en": "Huila" },
+          "pdo": "Café de Huila",
+          "notes": {
+            "es": "El sur del Huila (Pitalito, Acevedo) suele mostrar perfiles distintos al norte; sub-regiones en Fase 2.",
+            "en": "Southern Huila (Pitalito, Acevedo) often shows different profiles than the north; sub-regions in Phase 2."
+          }
+        },
+        {
+          "id": "cauca",
+          "label": { "es": "Cauca", "en": "Cauca" },
+          "pdo": "Café de Cauca",
+          "notes": null
+        },
+        {
+          "id": "narino",
+          "label": { "es": "Nariño", "en": "Nariño" },
+          "pdo": "Café de Nariño",
+          "notes": {
+            "es": "Altitudes habituales por encima de 2.000 msnm.",
+            "en": "Altitudes routinely above 2,000 masl."
+          }
+        },
+        {
+          "id": "tolima",
+          "label": { "es": "Tolima", "en": "Tolima" },
+          "pdo": "Café de Tolima",
+          "notes": {
+            "es": "El sur del Tolima encaja con el perfil Sur; el norte se acerca al perfil Centro.",
+            "en": "Southern Tolima fits the South profile; northern Tolima leans toward the Central profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "oriente",
+      "label": { "es": "Oriente", "en": "East" },
+      "altitude_band_masl": null,
+      "typical_profile": {
+        "es": "Menos del 1% del volumen nacional; región emergente. Altitudes variables.",
+        "en": "Less than 1% of national volume; emerging region. Altitudes vary."
+      },
+      "departments": [
+        {
+          "id": "casanare",
+          "label": { "es": "Casanare", "en": "Casanare" },
+          "pdo": null,
+          "notes": null
+        },
+        {
+          "id": "meta",
+          "label": { "es": "Meta", "en": "Meta" },
+          "pdo": null,
+          "notes": null
+        },
+        {
+          "id": "caqueta",
+          "label": { "es": "Caquetá", "en": "Caquetá" },
+          "pdo": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}
