@@ -1,0 +1,274 @@
+[
+  {
+    "id": "castillo",
+    "labels": { "es": "Castillo", "en": "Castillo" },
+    "parentage": "Caturra × Híbrido de Timor",
+    "released_by": "Cenicafé",
+    "released_year": 2005,
+    "rust_resistant": true,
+    "cup_profile": {
+      "es": "Suave, acidez cítrica, perfil que va de frutal a chocolate.",
+      "en": "Smooth, citric acidity, profile ranging from fruity to chocolate."
+    },
+    "notes": {
+      "es": "Multilínea F5 resistente a la roya; ~45% de la cosecha nacional. Castillo 2.0 liberada a finales de 2024. Tiene 6+ sublíneas regionales (Naranjal, Paraguaicito, Santa Bárbara, etc.) — fase 2.",
+      "en": "Rust-resistant F5 multi-line; ~45% of the national crop. Castillo 2.0 released late 2024. Has 6+ regional sub-lines (Naranjal, Paraguaicito, Santa Bárbara, etc.) — Phase 2."
+    },
+    "mvp": true
+  },
+  {
+    "id": "caturra",
+    "labels": { "es": "Caturra", "en": "Caturra" },
+    "parentage": "Mutación de Bourbon (Brasil, 1937)",
+    "released_by": null,
+    "released_year": 1937,
+    "rust_resistant": false,
+    "cup_profile": {
+      "es": "Taza promedio; perfil clásico colombiano dulce y balanceado.",
+      "en": "Average cup; classic Colombian sweet, balanced profile."
+    },
+    "notes": {
+      "es": "Mutación natural de Bourbon descubierta en Brasil. Susceptible a la roya.",
+      "en": "Natural Bourbon mutation discovered in Brazil. Susceptible to leaf rust."
+    },
+    "mvp": true
+  },
+  {
+    "id": "variedad_colombia",
+    "labels": { "es": "Variedad Colombia", "en": "Colombia" },
+    "parentage": "Catimor F5 (Caturra × Híbrido de Timor)",
+    "released_by": "Cenicafé",
+    "released_year": 1982,
+    "rust_resistant": true,
+    "cup_profile": {
+      "es": "Suave, balanceada, dulce.",
+      "en": "Smooth, balanced, sweet."
+    },
+    "notes": {
+      "es": "Liberada por Cenicafé antes de que la roya llegara a Colombia (1983); primera variedad resistente a la roya plantada masivamente en el país.",
+      "en": "Released by Cenicafé before leaf rust reached Colombia (1983); the first widely-planted rust-resistant variety in the country."
+    },
+    "mvp": true
+  },
+  {
+    "id": "tabi",
+    "labels": { "es": "Tabi", "en": "Tabi" },
+    "parentage": "Típica × Bourbon × Híbrido de Timor",
+    "released_by": "Cenicafé",
+    "released_year": 2002,
+    "rust_resistant": true,
+    "cup_profile": {
+      "es": "Acidez brillante, balanceada y limpia.",
+      "en": "Bright acidity, balanced and clean."
+    },
+    "notes": {
+      "es": "Porte alto y ramas largas. 'Tabi' significa 'bueno' en guambiano.",
+      "en": "Tall plant with long branches. 'Tabi' means 'good' in Guambiano."
+    },
+    "mvp": true
+  },
+  {
+    "id": "cenicafe_1",
+    "labels": { "es": "Cenicafé 1", "en": "Cenicafé 1" },
+    "parentage": "Caturra × Híbrido de Timor 1343",
+    "released_by": "Cenicafé",
+    "released_year": 2016,
+    "rust_resistant": true,
+    "cup_profile": {
+      "es": "Cacao, miel, avellana; cataciones iniciales en torno a 84 puntos.",
+      "en": "Cocoa, honey, hazelnut; initial cuppings around 84 points."
+    },
+    "notes": {
+      "es": "Resistente a roya y CBD. 84% en malla 18 (Supremo).",
+      "en": "Resistant to leaf rust and CBD. 84% screen 18 (Supremo) yield."
+    },
+    "mvp": true
+  },
+  {
+    "id": "bourbon",
+    "labels": { "es": "Borbón (rojo/amarillo)", "en": "Bourbon (Red/Yellow)" },
+    "parentage": "Mutación de Típica en la isla Reunión",
+    "released_by": null,
+    "released_year": null,
+    "rust_resistant": false,
+    "cup_profile": {
+      "es": "Dulce, balanceado; poco común en Colombia.",
+      "en": "Sweet, balanced; rare in Colombia."
+    },
+    "notes": {
+      "es": "Mutación de Típica originada en la isla Reunión. Susceptible a la roya.",
+      "en": "Typica mutation originating on Reunion Island. Susceptible to leaf rust."
+    },
+    "mvp": true
+  },
+  {
+    "id": "pink_bourbon",
+    "labels": { "es": "Borbón rosado", "en": "Pink Bourbon" },
+    "parentage": "Landrace etíope (no es realmente un Bourbon)",
+    "released_by": null,
+    "released_year": null,
+    "rust_resistant": null,
+    "cup_profile": {
+      "es": "Floral, jazmín, panela, hierba limón, toronja; acidez compleja.",
+      "en": "Floral, jasmine, panela, lemongrass, grapefruit; complex acidity."
+    },
+    "notes": {
+      "es": "A pesar del nombre, NO es un Borbón. Las pruebas genéticas de 2023 (Café Imports / RD2 Vision) confirmaron que el Borbón rosado es un landrace etíope mal nombrado, sin parentesco con la línea Bourbon. Saltó a la fama en el COE Colombia 2022 y se usó en el WBC 2023.",
+      "en": "Despite the name, it is NOT a Bourbon. 2023 genetic testing by Café Imports / RD2 Vision confirmed Pink Bourbon is a misnamed Ethiopian landrace, unrelated to the Bourbon line. Surged at 2022 COE Colombia and was used at the 2023 WBC."
+    },
+    "mvp": true
+  },
+  {
+    "id": "geisha",
+    "labels": { "es": "Gesha / Geisha", "en": "Gesha / Geisha" },
+    "parentage": "Etiopía → Panamá → Colombia",
+    "released_by": null,
+    "released_year": null,
+    "rust_resistant": null,
+    "cup_profile": {
+      "es": "Floral, jazmín, durazno, sensación a té; expresa altitud.",
+      "en": "Floral, jasmine, peach, tea-like; thrives at altitude."
+    },
+    "notes": {
+      "es": "Llegó a Colombia desde Panamá hace más de 10 años. Producción muy baja; sólo expresa su perfil en altitud.",
+      "en": "Reached Colombia via Panama more than 10 years ago. Very low yield; only expresses its profile at altitude."
+    },
+    "mvp": true
+  },
+  {
+    "id": "typica",
+    "labels": { "es": "Típica", "en": "Typica" },
+    "parentage": "Linaje original de Yemen",
+    "released_by": null,
+    "released_year": null,
+    "rust_resistant": false,
+    "cup_profile": {
+      "es": "Grano alargado, baja productividad; taza limpia clásica.",
+      "en": "Long bean, low yield; classic clean cup."
+    },
+    "notes": {
+      "es": "Aproximadamente 25% de los árboles en Colombia.",
+      "en": "Roughly 25% of Colombian trees."
+    },
+    "mvp": false
+  },
+  {
+    "id": "wush_wush",
+    "labels": { "es": "Wush Wush", "en": "Wush Wush" },
+    "parentage": "Etiopía (región de Wushwush)",
+    "released_by": null,
+    "released_year": null,
+    "rust_resistant": null,
+    "cup_profile": {
+      "es": "Arándano, vainilla, maple, lavanda; sensación a té.",
+      "en": "Blueberry, vanilla, maple, lavender; tea-like."
+    },
+    "notes": {
+      "es": "Adaptación variable según la finca; raro en Colombia.",
+      "en": "Adapts variably by farm; rare in Colombia."
+    },
+    "mvp": false
+  },
+  {
+    "id": "maragogype",
+    "labels": { "es": "Maragogipe / Maragogype", "en": "Maragogype" },
+    "parentage": "Mutación de Típica (Brasil)",
+    "released_by": null,
+    "released_year": null,
+    "rust_resistant": null,
+    "cup_profile": {
+      "es": "Grano grande ('elefante'); taza suave y limpia.",
+      "en": "Large 'elephant' bean; mild, smooth cup."
+    },
+    "notes": {
+      "es": "Baja productividad.",
+      "en": "Low productivity."
+    },
+    "mvp": false
+  },
+  {
+    "id": "pacamara",
+    "labels": { "es": "Pacamara", "en": "Pacamara" },
+    "parentage": "Pacas × Maragogype",
+    "released_by": null,
+    "released_year": 1958,
+    "rust_resistant": null,
+    "cup_profile": {
+      "es": "Cuerpo amplio, complejo, herbal.",
+      "en": "Big body, complex, herbal."
+    },
+    "notes": {
+      "es": "Origen El Salvador, 1958. Aparece en algunos microlotes colombianos.",
+      "en": "Originated in El Salvador, 1958. Found in some Colombian micro-lots."
+    },
+    "mvp": false
+  },
+  {
+    "id": "java",
+    "labels": { "es": "Java", "en": "Java" },
+    "parentage": "Etiopía → Java → Camerún → liberación años 80",
+    "released_by": null,
+    "released_year": 1980,
+    "rust_resistant": null,
+    "cup_profile": {
+      "es": "Cacao, frutos rojos intensos, cercano al perfil Geisha.",
+      "en": "Cocoa, rich berries, Geisha-adjacent."
+    },
+    "notes": {
+      "es": "Calificado en 95 puntos por Coffee Review en 2024.",
+      "en": "Reviewed at 95 points by Coffee Review in 2024."
+    },
+    "mvp": false
+  },
+  {
+    "id": "chiroso",
+    "labels": { "es": "Chiroso", "en": "Chiroso" },
+    "parentage": "Landrace etíope seleccionado en Colombia",
+    "released_by": null,
+    "released_year": null,
+    "rust_resistant": null,
+    "cup_profile": {
+      "es": "Delicado, floral con tendencia herbal, perfil 'jardín'.",
+      "en": "Delicate, floral edging into herb, 'gardeny'."
+    },
+    "notes": {
+      "es": "Pruebas genéticas de RD2 Vision lo confirman como etíope. Frecuentemente etiquetado de forma incorrecta como 'Chiroso Caturra'.",
+      "en": "RD2 Vision genetics confirm it is Ethiopian. Often mislabelled as 'Chiroso Caturra'."
+    },
+    "mvp": false
+  },
+  {
+    "id": "sidra",
+    "labels": { "es": "Sidra", "en": "Sidra" },
+    "parentage": "Probablemente Ecuador (Pichincha); origen etíope",
+    "released_by": null,
+    "released_year": null,
+    "rust_resistant": false,
+    "cup_profile": {
+      "es": "Dulce, complejo, floral; sólo prospera bajo sombra plena.",
+      "en": "Sweet, complex, floral; full-shade-only."
+    },
+    "notes": {
+      "es": "Susceptible a plagas.",
+      "en": "Pest-susceptible."
+    },
+    "mvp": false
+  },
+  {
+    "id": "sl28",
+    "labels": { "es": "SL28", "en": "SL28" },
+    "parentage": "Selección Scott Labs (Kenia, 1931)",
+    "released_by": "Scott Labs",
+    "released_year": 1931,
+    "rust_resistant": null,
+    "cup_profile": {
+      "es": "Grosella negra, denso, complejo.",
+      "en": "Black-currant, dense, complex."
+    },
+    "notes": {
+      "es": "Raro en Colombia.",
+      "en": "Rare in Colombia."
+    },
+    "mvp": false
+  }
+]

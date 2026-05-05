@@ -1,0 +1,112 @@
+[
+  {
+    "id": "lavado",
+    "labels": { "es": "Lavado", "en": "Washed" },
+    "description": {
+      "es": "Despulpado, fermentación en tanques de agua de 12 a 36 horas, lavado y secado. Resalta la acidez brillante y el perfil limpio. Aproximadamente el 98% de la producción colombiana (Ally Open / FNC).",
+      "en": "Depulp, ferment in water tanks for 12 to 36 hours, then wash and dry. Highlights bright acidity and a clean profile. Roughly 98% of Colombian production (Ally Open / FNC)."
+    },
+    "typical_fermentation_hours": [12, 36],
+    "mvp": true
+  },
+  {
+    "id": "honey",
+    "labels": { "es": "Miel", "en": "Honey" },
+    "description": {
+      "es": "Se conserva parte del mucílago durante el secado. Variantes según el nivel de retención: rojo, amarillo y negro.",
+      "en": "Partial mucilage retained on the bean during drying. Variants by retention level: red, yellow, and black."
+    },
+    "typical_fermentation_hours": null,
+    "mvp": true
+  },
+  {
+    "id": "natural",
+    "labels": { "es": "Natural", "en": "Natural" },
+    "description": {
+      "es": "Secado de la cereza entera, sin despulpar.",
+      "en": "Whole-cherry dry; no depulping."
+    },
+    "typical_fermentation_hours": null,
+    "mvp": true
+  },
+  {
+    "id": "anaerobico",
+    "labels": { "es": "Anaeróbico", "en": "Anaerobic" },
+    "description": {
+      "es": "Fermentación en tanque sellado, frecuentemente de 36 a 120 horas, a veces con inyección de CO₂.",
+      "en": "Sealed-tank fermentation, often 36 to 120 hours, sometimes with CO₂ injection."
+    },
+    "typical_fermentation_hours": [36, 120],
+    "mvp": true
+  },
+  {
+    "id": "maceracion_carbonica",
+    "labels": { "es": "Maceración carbónica", "en": "Carbonic maceration" },
+    "description": {
+      "es": "Tanque purgado con CO₂. Origen en Sasa Sestic, WBC 2015.",
+      "en": "CO₂-purged tank. Origin: Sasa Sestic, 2015 WBC."
+    },
+    "typical_fermentation_hours": null,
+    "mvp": false
+  },
+  {
+    "id": "choque_termico",
+    "labels": { "es": "Choque térmico", "en": "Thermal shock" },
+    "description": {
+      "es": "Proceso firma de Diego Bermúdez (Finca El Paraíso, Cauca): cerezas limpiadas con ozono → 36 a 72 horas en anaeróbico → despulpado → lavado caliente a 40 °C y luego frío a 12 °C para 'sellar' el grano → secado controlado a 32 °C hasta el 11% de humedad.",
+      "en": "Diego Bermúdez signature process (Finca El Paraíso, Cauca): ozone-cleaned cherries → 36 to 72 hours anaerobic → pulp → wash 40 °C hot, then 12 °C cold to 'seal' the bean → controlled drier at 32 °C to 11% moisture."
+    },
+    "typical_fermentation_hours": [36, 72],
+    "mvp": true
+  },
+  {
+    "id": "lactico",
+    "labels": { "es": "Láctico", "en": "Lactic" },
+    "description": {
+      "es": "Fermentación láctica en tanque cerrado; menos alcohol/winey, más fruta.",
+      "en": "Closed-tank lactic fermentation; less alcohol/winey, more fruit."
+    },
+    "typical_fermentation_hours": null,
+    "mvp": false
+  },
+  {
+    "id": "cofermentacion",
+    "labels": { "es": "Co-fermentación", "en": "Co-ferment" },
+    "description": {
+      "es": "Adición de fruta, levadura o especias durante la fermentación. Ejemplos: Sebastián Ramírez con sandía y mora.",
+      "en": "Added fruit, yeast, or spices during fermentation. Examples: Sebastián Ramírez watermelon and blackberry lots."
+    },
+    "typical_fermentation_hours": null,
+    "mvp": true
+  },
+  {
+    "id": "doble_fermentacion",
+    "labels": { "es": "Doble fermentación", "en": "Double fermentation" },
+    "description": {
+      "es": "Anaeróbico en cereza, seguido de un segundo anaeróbico tras el despulpado.",
+      "en": "Anaerobic in cherry, followed by a second anaerobic after depulping."
+    },
+    "typical_fermentation_hours": null,
+    "mvp": false
+  },
+  {
+    "id": "honey_color",
+    "labels": { "es": "Honey rojo / amarillo / negro", "en": "Red / Yellow / Black honey" },
+    "description": {
+      "es": "Subvariantes del proceso honey según el nivel de retención de mucílago: rojo (parcial), amarillo (más bajo), negro (más alto y secado más lento).",
+      "en": "Honey sub-variants by mucilage retention: red (partial), yellow (lower), black (highest, slower drying)."
+    },
+    "typical_fermentation_hours": null,
+    "mvp": false
+  },
+  {
+    "id": "lavado_mecanico",
+    "labels": { "es": "Lavado mecánico (Penagos / DESLIM)", "en": "Eco-pulping (Penagos / DESLIM)" },
+    "description": {
+      "es": "Beneficio mecánico ahorrador de agua desarrollado por Cenicafé (Penagos / DESLIM); reduce el consumo de agua aproximadamente un 95%.",
+      "en": "Cenicafé's water-saving wet-mill (Penagos / DESLIM) that cuts water use by roughly 95%."
+    },
+    "typical_fermentation_hours": null,
+    "mvp": false
+  }
+]
