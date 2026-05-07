@@ -1,0 +1,222 @@
+[
+  {
+    "id": "panela",
+    "labels": { "es": "Panela", "en": "Panela (unrefined cane sugar)" },
+    "parent_cata_path": ["sweet"],
+    "definition": {
+      "es": "Azúcar de caña sin refinar prensado en bloque; aroma profundo de melaza con acentos florales y de vainilla. Descriptor icónico colombiano, especialmente en cafés de Pitalito y Pedregal.",
+      "en": "Unrefined block cane sugar; deep molasses aroma with floral and vanilla accents. Iconic Colombian sweetness descriptor, strongest in Pitalito and Pedregal cups."
+    },
+    "closest_wcr_equivalent": "brown_sugar",
+    "mvp": true
+  },
+  {
+    "id": "bocadillo",
+    "labels": { "es": "Bocadillo", "en": "Bocadillo (guava paste)" },
+    "parent_cata_path": ["fruity", "other_fruit"],
+    "definition": {
+      "es": "Dulce tradicional de guayaba prensada; nota frecuente en perfiles de cafés de Santander.",
+      "en": "Traditional pressed-guava paste; common cup note in Santander coffees."
+    },
+    "closest_wcr_equivalent": "other_fruit",
+    "mvp": true
+  },
+  {
+    "id": "lulo_citrus",
+    "labels": { "es": "Lulo (cítrico)", "en": "Lulo / naranjilla (citric reading)" },
+    "parent_cata_path": ["fruity", "citrus"],
+    "definition": {
+      "es": "Fruta andina con acidez cítrica brillante y aroma tropical-verde; lectura cítrica usada cuando domina la acidez.",
+      "en": "Andean fruit with bright citric acidity and tropical-green aroma; the citric reading used when acidity dominates."
+    },
+    "closest_wcr_equivalent": "citrus_fruit",
+    "mvp": true
+  },
+  {
+    "id": "lulo_other_fruit",
+    "labels": { "es": "Lulo (fruta tropical)", "en": "Lulo / naranjilla (tropical fruit reading)" },
+    "parent_cata_path": ["fruity", "other_fruit"],
+    "definition": {
+      "es": "Fruta andina de pulpa verde con notas tropicales-vegetales; lectura como fruta tropical cuando predomina lo aromático sobre lo cítrico.",
+      "en": "Andean fruit with green pulp and tropical-vegetal notes; the tropical-fruit reading used when aromatics dominate over acidity."
+    },
+    "closest_wcr_equivalent": "other_fruit",
+    "mvp": true
+  },
+  {
+    "id": "guanabana",
+    "labels": { "es": "Guanábana", "en": "Guanábana (soursop)" },
+    "parent_cata_path": ["fruity", "other_fruit"],
+    "definition": {
+      "es": "Fruta tropical cremosa de pulpa blanca; nota recurrente en lotes de altitud media-baja.",
+      "en": "Creamy white-fleshed tropical fruit; recurring note in lower-altitude lots."
+    },
+    "closest_wcr_equivalent": "other_fruit",
+    "mvp": true
+  },
+  {
+    "id": "mora",
+    "labels": { "es": "Mora", "en": "Mora (Andean blackberry)" },
+    "parent_cata_path": ["fruity", "berry"],
+    "definition": {
+      "es": "Mora andina (mora de Castilla); lectura más punzante y ácida que la zarzamora del lexicón WCR.",
+      "en": "Andean blackberry (mora de Castilla); reads sharper and more acidic than WCR Blackberry."
+    },
+    "closest_wcr_equivalent": "blackberry",
+    "mvp": true
+  },
+  {
+    "id": "mortino",
+    "labels": { "es": "Mortiño", "en": "Mortiño (Andean wild blueberry)" },
+    "parent_cata_path": ["fruity", "berry"],
+    "definition": {
+      "es": "Arándano silvestre andino; cercano al arándano WCR pero más astringente y con piel más marcada.",
+      "en": "Wild Andean blueberry; close to WCR Blueberry but more astringent and skin-forward."
+    },
+    "closest_wcr_equivalent": "blueberry",
+    "mvp": true
+  },
+  {
+    "id": "curuba",
+    "labels": { "es": "Curuba", "en": "Curuba (banana passionfruit)" },
+    "parent_cata_path": ["fruity", "other_fruit"],
+    "definition": {
+      "es": "Fruta de la pasión de altura, alargada; aroma tropical floral menos intenso que el maracuyá.",
+      "en": "High-altitude elongated passionfruit; tropical-floral aroma, less intense than maracuyá."
+    },
+    "closest_wcr_equivalent": "other_fruit",
+    "mvp": true
+  },
+  {
+    "id": "maracuya",
+    "labels": { "es": "Maracuyá", "en": "Maracuyá (passionfruit)" },
+    "parent_cata_path": ["fruity", "other_fruit"],
+    "definition": {
+      "es": "Maracuyá amarillo; aroma tropical intenso, ácido y aromático, frecuente en procesos anaeróbicos.",
+      "en": "Yellow passionfruit; intense tropical aroma, acidic and aromatic, common in anaerobic processes."
+    },
+    "closest_wcr_equivalent": "other_fruit",
+    "mvp": false
+  },
+  {
+    "id": "lulada_green",
+    "labels": { "es": "Lulada / lulo verde (verde-vegetal)", "en": "Lulada / green naranjilla (green/vegetative reading)" },
+    "parent_cata_path": ["green_vegetative"],
+    "definition": {
+      "es": "Lulo verde sin madurar; lectura verde-vegetal con notas herbáceas y un dejo cítrico al final.",
+      "en": "Unripe green naranjilla; green-vegetative reading with herbal notes and a citric finish."
+    },
+    "closest_wcr_equivalent": "green",
+    "mvp": false
+  },
+  {
+    "id": "lulada_other_fruit",
+    "labels": { "es": "Lulada / lulo verde (frutal)", "en": "Lulada / green naranjilla (fruity reading)" },
+    "parent_cata_path": ["fruity", "other_fruit"],
+    "definition": {
+      "es": "Bebida tradicional de lulo machacado; lectura frutal-tropical con acidez fresca.",
+      "en": "Traditional crushed-lulo drink; tropical-fruity reading with fresh acidity."
+    },
+    "closest_wcr_equivalent": "other_fruit",
+    "mvp": false
+  },
+  {
+    "id": "tomate_de_arbol",
+    "labels": { "es": "Tomate de árbol", "en": "Tomate de árbol (tamarillo)" },
+    "parent_cata_path": ["fruity", "other_fruit"],
+    "definition": {
+      "es": "Tamarillo andino; aroma agridulce a fruta tropical con un dejo a tomate maduro.",
+      "en": "Andean tamarillo; sweet-tart tropical-fruit aroma with a ripe-tomato edge."
+    },
+    "closest_wcr_equivalent": "other_fruit",
+    "mvp": false
+  },
+  {
+    "id": "aguardiente",
+    "labels": { "es": "Aguardiente", "en": "Aguardiente (anise spirit)" },
+    "parent_cata_path": ["sour_fermented", "alcohol_fermented"],
+    "definition": {
+      "es": "Licor de caña con anís; descriptor frecuente para anaeróbicos sobrefermentados.",
+      "en": "Anise-flavored cane spirit; common descriptor for over-fermented anaerobic lots."
+    },
+    "closest_wcr_equivalent": "alcohol",
+    "mvp": false
+  },
+  {
+    "id": "tabaco_rubio",
+    "labels": { "es": "Tabaco rubio", "en": "Tabaco rubio (light cured tobacco)" },
+    "parent_cata_path": ["tobacco"],
+    "definition": {
+      "es": "Tabaco curado claro, dulzón y aromático; firma característica de Santander.",
+      "en": "Light-cured tobacco, sweet and aromatic; signature note of Santander coffees."
+    },
+    "closest_wcr_equivalent": "tobacco",
+    "mvp": true
+  },
+  {
+    "id": "tabaco_negro",
+    "labels": { "es": "Tabaco negro", "en": "Tabaco negro (dark cured tobacco)" },
+    "parent_cata_path": ["tobacco"],
+    "definition": {
+      "es": "Tabaco curado oscuro, más resinoso y profundo que el rubio.",
+      "en": "Dark-cured tobacco, more resinous and deeper than light-cured."
+    },
+    "closest_wcr_equivalent": "pipe_tobacco",
+    "mvp": false
+  },
+  {
+    "id": "achiote",
+    "labels": { "es": "Achiote", "en": "Achiote (annatto)" },
+    "parent_cata_path": ["spice"],
+    "definition": {
+      "es": "Semilla de annatto; nota terrosa, ligeramente picante, con un matiz a páprika.",
+      "en": "Annatto seed; earthy, lightly pungent, paprika-tinged note."
+    },
+    "closest_wcr_equivalent": "spice_brown",
+    "mvp": false
+  },
+  {
+    "id": "miel_de_cana",
+    "labels": { "es": "Miel de caña", "en": "Miel de caña (cane honey / molasses syrup)" },
+    "parent_cata_path": ["sweet"],
+    "definition": {
+      "es": "Jarabe denso de caña, paso intermedio hacia la panela; dulzor profundo y melaza ligera.",
+      "en": "Dense cane syrup, an intermediate stage toward panela; deep sweetness and light molasses."
+    },
+    "closest_wcr_equivalent": "honey",
+    "mvp": true
+  },
+  {
+    "id": "miel_de_abejas",
+    "labels": { "es": "Miel de abejas", "en": "Miel de abejas (bee honey)" },
+    "parent_cata_path": ["sweet"],
+    "definition": {
+      "es": "Miel de abejas, floral y delicada; distinguir explícitamente de la miel de caña.",
+      "en": "Bee honey, floral and delicate; distinguish explicitly from cane honey."
+    },
+    "closest_wcr_equivalent": "honey",
+    "mvp": false
+  },
+  {
+    "id": "almibar_sweet",
+    "labels": { "es": "Almíbar (sabor)", "en": "Almíbar (syrupy sweetness)" },
+    "parent_cata_path": ["sweet"],
+    "definition": {
+      "es": "Almíbar de fruta cocida en azúcar; dulzor sostenido y aromático, frecuente en lavados jugosos del Huila.",
+      "en": "Fruit-and-sugar syrup; sustained, aromatic sweetness, common in juicy washed Huila coffees."
+    },
+    "closest_wcr_equivalent": "maple_syrup",
+    "mvp": true
+  },
+  {
+    "id": "almibar_mouthfeel",
+    "labels": { "es": "Almíbar (sensación)", "en": "Almíbar (syrupy mouthfeel)" },
+    "parent_cata_path": ["mouthfeel"],
+    "definition": {
+      "es": "Sensación en boca densa y aterciopelada, similar a un jarabe; lectura de cuerpo cuando el almíbar se percibe táctilmente.",
+      "en": "Dense, velvety, syrup-like mouthfeel; the body reading when almíbar is felt rather than tasted."
+    },
+    "closest_wcr_equivalent": "smooth",
+    "mvp": true
+  }
+]
