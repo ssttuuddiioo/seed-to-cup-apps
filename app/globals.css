@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-origen-orange: #e85d24;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, sans-serif;
+
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+}
+
+:root {
+  --origen-orange: #e85d24;
+}
+
+html,
+body {
+  background-color: #ffffff;
+  color: #0a0a0a;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}

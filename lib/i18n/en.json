@@ -1,0 +1,10 @@
+{
+  "app": {
+    "name": "Origen Cupping"
+  },
+  "home": {
+    "sessions_heading": "Recent sessions",
+    "empty_sessions": "No sessions recorded yet.",
+    "cta_new_session": "New session"
+  }
+}
