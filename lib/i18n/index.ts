@@ -23,14 +23,37 @@ function lookup(dict: unknown, path: string[]): string | undefined {
   return typeof cur === "string" ? cur : undefined;
 }
 
-export function t(key: string, lang: Lang = DEFAULT_LANG): string {
+export function t(
+  key: string,
+  lang: Lang = DEFAULT_LANG,
+  vars?: Record<string, string | number>,
+): string {
   const path = key.split(".");
-  const hit = lookup(dictionaries[lang], path);
-  if (hit !== undefined) return hit;
-
-  if (lang !== DEFAULT_LANG) {
-    const fallback = lookup(dictionaries[DEFAULT_LANG], path);
-    if (fallback !== undefined) return fallback;
+  let hit = lookup(dictionaries[lang], path);
+  if (hit === undefined && lang !== DEFAULT_LANG) {
+    hit = lookup(dictionaries[DEFAULT_LANG], path);
   }
-  return key;
+  if (hit === undefined) return key;
+  if (!vars) return hit;
+  return hit.replace(/\{\{(\w+)\}\}/g, (_, name: string) =>
+    name in vars ? String(vars[name]) : `{{${name}}}`,
+  );
+}
+
+export function plural(
+  base: string,
+  count: number,
+  lang: Lang = DEFAULT_LANG,
+): string {
+  const key = count === 1 ? `${base}_one` : `${base}_other`;
+  return t(key, lang, { count });
+}
+
+export function formatDate(value: string | Date, lang: Lang = DEFAULT_LANG): string {
+  const d = typeof value === "string" ? new Date(value) : value;
+  return new Intl.DateTimeFormat(lang === "es" ? "es-CO" : "en-US", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  }).format(d);
 }

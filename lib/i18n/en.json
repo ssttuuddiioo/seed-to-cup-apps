@@ -2,9 +2,86 @@
   "app": {
     "name": "Origen Cupping"
   },
+  "common": {
+    "back": "Back",
+    "continue": "Continue",
+    "remove": "Remove",
+    "required": "Required",
+    "optional": "Optional",
+    "saving": "Saving…",
+    "submit_error": "Could not save the session. Please try again."
+  },
   "home": {
     "sessions_heading": "Recent sessions",
     "empty_sessions": "No sessions recorded yet.",
-    "cta_new_session": "New session"
+    "cta_new_session": "New session",
+    "coffees_count_one": "1 coffee",
+    "coffees_count_other": "{{count}} coffees",
+    "cuppers_count_one": "1 cupper",
+    "cuppers_count_other": "{{count}} cuppers"
+  },
+  "session_detail": {
+    "ready_state": "Session ready to cup",
+    "ready_help": "The cupping form is coming soon. Your blind codes are saved.",
+    "language_label": "Language",
+    "back_home": "Back to home"
+  },
+  "stepper": {
+    "details": "Details",
+    "coffees": "Coffees",
+    "codes": "Codes"
+  },
+  "lang": {
+    "es": "Español",
+    "en": "English"
+  },
+  "setup": {
+    "step1": {
+      "title": "New session",
+      "subtitle": "Start by naming the visit and the cuppers.",
+      "title_label": "Title",
+      "title_placeholder": "Finca Bellavista, May 2026",
+      "location_label": "Location",
+      "location_placeholder": "Charalá, Santander",
+      "lang_label": "Session language",
+      "cuppers_label": "Cuppers",
+      "cuppers_hint": "Add each cupper's initials. Maximum 5.",
+      "cuppers_placeholder": "PG",
+      "cuppers_add": "Add",
+      "cuppers_max_reached": "Maximum of 5 cuppers."
+    },
+    "step2": {
+      "title": "Coffees to cup",
+      "subtitle": "Add between 1 and 8 coffees. Only producer and variety are required.",
+      "card_label": "Coffee",
+      "producer_label": "Producer",
+      "producer_placeholder": "Search or create producer…",
+      "producer_new": "Create new producer",
+      "producer_finca_label": "Farm",
+      "producer_finca_placeholder": "Finca Bellavista",
+      "variety_label": "Variety",
+      "variety_placeholder": "Select one or more",
+      "process_label": "Process",
+      "process_placeholder": "Select a process",
+      "region_label": "Region",
+      "region_placeholder": "Select a region",
+      "altitude_label": "Altitude",
+      "altitude_suffix": "masl",
+      "lot_code_label": "Lot code",
+      "lot_code_placeholder": "BV-2026-01",
+      "notes_label": "Notes",
+      "notes_placeholder": "Experimental lot, marquee-dried",
+      "add_coffee": "Add coffee",
+      "max_reached": "Maximum of 8 coffees.",
+      "generate_codes": "Generate codes and start"
+    },
+    "step3": {
+      "title": "Generated codes",
+      "subtitle": "The coffees have been randomized. You will only see the codes during cupping. Real identities are revealed at the end.",
+      "card_status": "To cup",
+      "reminder_title": "Reminder",
+      "reminder_body": "Before each cupper takes the tablet, make sure the previous cupper has saved their evaluation.",
+      "confirm": "Confirm and start cupping"
+    }
   }
 }

@@ -2,9 +2,86 @@
   "app": {
     "name": "Origen Cupping"
   },
+  "common": {
+    "back": "Atrás",
+    "continue": "Continuar",
+    "remove": "Eliminar",
+    "required": "Obligatorio",
+    "optional": "Opcional",
+    "saving": "Guardando…",
+    "submit_error": "No se pudo guardar la sesión. Inténtalo de nuevo."
+  },
   "home": {
     "sessions_heading": "Sesiones recientes",
     "empty_sessions": "Aún no has registrado sesiones.",
-    "cta_new_session": "Nueva sesión"
+    "cta_new_session": "Nueva sesión",
+    "coffees_count_one": "1 café",
+    "coffees_count_other": "{{count}} cafés",
+    "cuppers_count_one": "1 catador",
+    "cuppers_count_other": "{{count}} catadores"
+  },
+  "session_detail": {
+    "ready_state": "Sesión lista para catar",
+    "ready_help": "El formulario de catación llegará pronto. Mientras tanto, los códigos ciegos están guardados.",
+    "language_label": "Idioma",
+    "back_home": "Volver al inicio"
+  },
+  "stepper": {
+    "details": "Detalles",
+    "coffees": "Cafés",
+    "codes": "Códigos"
+  },
+  "lang": {
+    "es": "Español",
+    "en": "English"
+  },
+  "setup": {
+    "step1": {
+      "title": "Nueva sesión",
+      "subtitle": "Empieza nombrando la visita y los catadores.",
+      "title_label": "Título",
+      "title_placeholder": "Finca Bellavista, mayo 2026",
+      "location_label": "Ubicación",
+      "location_placeholder": "Charalá, Santander",
+      "lang_label": "Idioma de esta sesión",
+      "cuppers_label": "Catadores",
+      "cuppers_hint": "Añade las iniciales de cada catador. Máximo 5.",
+      "cuppers_placeholder": "PG",
+      "cuppers_add": "Añadir",
+      "cuppers_max_reached": "Máximo de 5 catadores."
+    },
+    "step2": {
+      "title": "Cafés a catar",
+      "subtitle": "Añade entre 1 y 8 cafés. Solo productor y variedad son obligatorios.",
+      "card_label": "Café",
+      "producer_label": "Productor",
+      "producer_placeholder": "Buscar o crear productor…",
+      "producer_new": "Crear nuevo productor",
+      "producer_finca_label": "Finca",
+      "producer_finca_placeholder": "Finca Bellavista",
+      "variety_label": "Variedad",
+      "variety_placeholder": "Selecciona una o más",
+      "process_label": "Proceso",
+      "process_placeholder": "Selecciona un proceso",
+      "region_label": "Región",
+      "region_placeholder": "Selecciona una región",
+      "altitude_label": "Altitud",
+      "altitude_suffix": "msnm",
+      "lot_code_label": "Código de lote",
+      "lot_code_placeholder": "BV-2026-01",
+      "notes_label": "Notas",
+      "notes_placeholder": "Lote experimental, secado en marquesina",
+      "add_coffee": "Añadir café",
+      "max_reached": "Máximo de 8 cafés.",
+      "generate_codes": "Generar códigos y empezar"
+    },
+    "step3": {
+      "title": "Códigos generados",
+      "subtitle": "Los cafés han sido aleatorizados. Solo verás los códigos durante la cata. La identidad real se revela al final.",
+      "card_status": "Por catar",
+      "reminder_title": "Recordatorio",
+      "reminder_body": "Antes de cada catador, asegúrate que el iPad esté pasado y que el catador anterior haya guardado su evaluación.",
+      "confirm": "Confirmar y empezar la cata"
+    }
   }
 }

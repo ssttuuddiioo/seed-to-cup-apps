@@ -1,13 +1,25 @@
-import { t } from "@/lib/i18n";
+import Link from "next/link";
+import { formatDate, plural, t } from "@/lib/i18n";
+import { supabase } from "@/lib/supabase";
 
-type Session = {
+export const dynamic = "force-dynamic";
+
+type SessionRow = {
   id: string;
   title: string;
+  location: string | null;
   started_at: string;
+  cuppers: string[];
+  samples: { count: number }[];
 };
 
-async function getSessions(): Promise<Session[]> {
-  return [];
+async function getSessions(): Promise<SessionRow[]> {
+  const { data } = await supabase
+    .from("sessions")
+    .select("id, title, location, started_at, cuppers, samples(count)")
+    .order("started_at", { ascending: false })
+    .limit(20);
+  return (data as SessionRow[] | null) ?? [];
 }
 
 export default async function HomePage() {
@@ -32,22 +44,46 @@ export default async function HomePage() {
           </div>
         ) : (
           <ul className="divide-y divide-neutral-200 rounded-lg border border-neutral-200">
-            {sessions.map((s) => (
-              <li key={s.id} className="px-5 py-4">
-                <div className="text-sm font-medium text-neutral-900">{s.title}</div>
-                <div className="text-xs text-neutral-500">{s.started_at}</div>
-              </li>
-            ))}
+            {sessions.map((s) => {
+              const coffeeCount = s.samples?.[0]?.count ?? 0;
+              const cupperCount = Array.isArray(s.cuppers) ? s.cuppers.length : 0;
+              return (
+                <li key={s.id}>
+                  <Link
+                    href={`/sessions/${s.id}`}
+                    className="block px-5 py-4 hover:bg-neutral-50"
+                  >
+                    <div className="flex items-baseline justify-between gap-3">
+                      <div className="min-w-0 truncate text-sm font-medium text-neutral-900">
+                        {s.title}
+                      </div>
+                      <div className="shrink-0 text-xs text-neutral-400">
+                        {formatDate(s.started_at)}
+                      </div>
+                    </div>
+                    <div className="mt-1 truncate text-xs text-neutral-500">
+                      {[
+                        s.location,
+                        plural("home.coffees_count", coffeeCount),
+                        plural("home.cuppers_count", cupperCount),
+                      ]
+                        .filter(Boolean)
+                        .join(" · ")}
+                    </div>
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         )}
       </section>
 
-      <button
-        type="button"
-        className="rounded-md bg-origen-orange px-5 py-2.5 text-sm font-medium text-white shadow-sm transition-opacity hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-origen-orange focus:ring-offset-2"
+      <Link
+        href="/sessions/new"
+        className="inline-block rounded-md bg-origen-orange px-5 py-2.5 text-sm font-medium text-white shadow-sm transition-opacity hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-origen-orange focus:ring-offset-2"
       >
         {t("home.cta_new_session")}
-      </button>
+      </Link>
     </main>
   );
 }
