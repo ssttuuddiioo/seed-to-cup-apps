@@ -84,6 +84,23 @@ export default async function HomePage() {
       >
         {t("home.cta_new_session")}
       </Link>
+
+      <section className="mt-14">
+        <h2 className="mb-4 text-xs font-medium uppercase tracking-[0.08em] text-neutral-500">
+          {t("home.tools_heading")}
+        </h2>
+        <Link
+          href="/fermentacion"
+          className="block rounded-xl border border-neutral-200 bg-white px-5 py-4 hover:bg-neutral-50"
+        >
+          <div className="text-sm font-medium text-neutral-900">
+            {t("fermentacion.title")}
+          </div>
+          <div className="mt-1 text-xs text-neutral-500">
+            {t("fermentacion.home_hint")}
+          </div>
+        </Link>
+      </section>
     </main>
   );
 }

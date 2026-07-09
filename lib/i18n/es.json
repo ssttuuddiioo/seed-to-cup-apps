@@ -20,7 +20,8 @@
     "coffees_count_one": "1 café",
     "coffees_count_other": "{{count}} cafés",
     "cuppers_count_one": "1 catador",
-    "cuppers_count_other": "{{count}} catadores"
+    "cuppers_count_other": "{{count}} catadores",
+    "tools_heading": "Herramientas"
   },
   "session_detail": {
     "ready_state": "Sesión lista para catar",
@@ -204,5 +205,56 @@
     "done_title": "Análisis físico guardado",
     "done_body": "Se analizaron {{count}} cafés.",
     "back_to_session": "Volver a la sesión"
+  },
+  "fermentacion": {
+    "title": "Fermentación",
+    "subtitle": "Control de fermentación en campo — funciona sin conexión.",
+    "back_home": "Inicio",
+    "sessions_heading": "Sesiones",
+    "empty": "Aún no hay sesiones de fermentación.",
+    "new_session": "Nueva sesión",
+    "readings_count_one": "1 lectura",
+    "readings_count_other": "{{count}} lecturas",
+    "not_found": "No se encontró esta sesión.",
+    "back_to_list": "Volver a fermentación",
+    "edit_header": "Editar",
+    "export_csv": "Exportar CSV",
+    "export_pdf": "Exportar PDF",
+    "popup_blocked": "Permite las ventanas emergentes para exportar el PDF.",
+    "home_hint": "Registra fermentaciones en la finca (CFF-005).",
+    "new": {
+      "title": "Nueva sesión de fermentación",
+      "subtitle": "Registra la finca y la fecha para empezar.",
+      "finca": "Finca",
+      "finca_placeholder": "Finca Bellavista",
+      "fecha": "Fecha",
+      "created_by": "Registrado por",
+      "created_by_placeholder": "Iniciales o nombre",
+      "create": "Crear y empezar",
+      "save_error": "No se pudo crear la sesión. Inténtalo de nuevo."
+    },
+    "reading": {
+      "new_heading": "Nueva lectura",
+      "edit_heading": "Editando lectura",
+      "cancel_edit": "Cancelar",
+      "list_heading": "Lecturas registradas",
+      "none_yet": "Sin lecturas todavía. Añade la primera arriba.",
+      "add": "Añadir lectura",
+      "save_edit": "Guardar cambios",
+      "save_error": "No se pudo guardar la lectura. Inténtalo de nuevo.",
+      "lote_placeholder": "BV-2026-01",
+      "notas_placeholder": "Observaciones"
+    },
+    "sync": {
+      "offline": "Sin conexión",
+      "pending": "{{count}} sin sincronizar",
+      "synced": "Sincronizado"
+    },
+    "warn": {
+      "ph_range": "pH fuera del rango habitual (2–7).",
+      "brix_positive": "Brix debería ser un número positivo.",
+      "ec_positive": "EC debería ser un número positivo.",
+      "temp_range": "Temperatura fuera del rango esperado (0–60 °C)."
+    }
   }
 }

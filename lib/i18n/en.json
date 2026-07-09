@@ -20,7 +20,8 @@
     "coffees_count_one": "1 coffee",
     "coffees_count_other": "{{count}} coffees",
     "cuppers_count_one": "1 cupper",
-    "cuppers_count_other": "{{count}} cuppers"
+    "cuppers_count_other": "{{count}} cuppers",
+    "tools_heading": "Tools"
   },
   "session_detail": {
     "ready_state": "Session ready to cup",
@@ -204,5 +205,56 @@
     "done_title": "Physical grading saved",
     "done_body": "Graded {{count}} coffees.",
     "back_to_session": "Back to session"
+  },
+  "fermentacion": {
+    "title": "Fermentation",
+    "subtitle": "Field fermentation control — works offline.",
+    "back_home": "Home",
+    "sessions_heading": "Sessions",
+    "empty": "No fermentation sessions yet.",
+    "new_session": "New session",
+    "readings_count_one": "1 reading",
+    "readings_count_other": "{{count}} readings",
+    "not_found": "This session could not be found.",
+    "back_to_list": "Back to fermentation",
+    "edit_header": "Edit",
+    "export_csv": "Export CSV",
+    "export_pdf": "Export PDF",
+    "popup_blocked": "Allow pop-ups to export the PDF.",
+    "home_hint": "Log fermentations on the farm (CFF-005).",
+    "new": {
+      "title": "New fermentation session",
+      "subtitle": "Enter the farm and date to begin.",
+      "finca": "Farm",
+      "finca_placeholder": "Finca Bellavista",
+      "fecha": "Date",
+      "created_by": "Recorded by",
+      "created_by_placeholder": "Initials or name",
+      "create": "Create and start",
+      "save_error": "Could not create the session. Please try again."
+    },
+    "reading": {
+      "new_heading": "New reading",
+      "edit_heading": "Editing reading",
+      "cancel_edit": "Cancel",
+      "list_heading": "Recorded readings",
+      "none_yet": "No readings yet. Add the first one above.",
+      "add": "Add reading",
+      "save_edit": "Save changes",
+      "save_error": "Could not save the reading. Please try again.",
+      "lote_placeholder": "BV-2026-01",
+      "notas_placeholder": "Notes"
+    },
+    "sync": {
+      "offline": "Offline",
+      "pending": "{{count}} unsynced",
+      "synced": "Synced"
+    },
+    "warn": {
+      "ph_range": "pH outside the usual range (2–7).",
+      "brix_positive": "Brix should be a positive number.",
+      "ec_positive": "EC should be a positive number.",
+      "temp_range": "Temperature outside the expected range (0–60 °C)."
+    }
   }
 }
