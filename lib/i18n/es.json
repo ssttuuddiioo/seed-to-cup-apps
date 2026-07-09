@@ -9,6 +9,8 @@
     "required": "Obligatorio",
     "optional": "Opcional",
     "saving": "Guardando…",
+    "done": "Listo",
+    "search": "Buscar…",
     "submit_error": "No se pudo guardar la sesión. Inténtalo de nuevo."
   },
   "home": {
@@ -22,9 +24,27 @@
   },
   "session_detail": {
     "ready_state": "Sesión lista para catar",
-    "ready_help": "El formulario de catación llegará pronto. Mientras tanto, los códigos ciegos están guardados.",
+    "ready_help": "Los códigos ciegos están guardados. Empieza la cata descriptiva cuando la mesa esté lista.",
+    "start_cupping": "Empezar la cata",
+    "physical_cta": "Análisis físico",
+    "reveal_cta": "Revelar y puntajes",
     "language_label": "Idioma",
     "back_home": "Volver al inicio"
+  },
+  "reveal": {
+    "title": "Revelación",
+    "subtitle": "Códigos revelados, ordenados por puntaje del panel.",
+    "rank": "Puesto",
+    "spread": "Dispersión",
+    "cuppers_scored": "{{count}} con puntaje",
+    "no_scores": "Aún sin puntaje",
+    "view_card": "Ficha del productor",
+    "back_to_session": "Volver a la sesión"
+  },
+  "card": {
+    "export": "Exportar PNG",
+    "panel": "panel de {{count}}",
+    "descriptors": "Notas principales"
   },
   "stepper": {
     "details": "Detalles",
@@ -83,5 +103,106 @@
       "reminder_body": "Antes de cada catador, asegúrate que el iPad esté pasado y que el catador anterior haya guardado su evaluación.",
       "confirm": "Confirmar y empezar la cata"
     }
+  },
+  "descriptive": {
+    "title": "Cata descriptiva",
+    "pick_cupper_title": "¿Quién cata?",
+    "pick_cupper_subtitle": "Selecciona tus iniciales y cata cada muestra en orden.",
+    "no_cuppers": "No se añadieron catadores a esta sesión.",
+    "cupper_label": "Catador",
+    "sample_label": "Muestra",
+    "stages": {
+      "descriptive": "Descriptiva",
+      "affective": "Afectiva",
+      "extrinsic": "Extrínseca"
+    },
+    "affective_locked": "Marca las ocho filas para continuar",
+    "progress": "{{done}} de {{total}} muestras guardadas",
+    "intensity": {
+      "fragrance_aroma": "Fragancia / aroma",
+      "flavor_aftertaste": "Sabor / residual",
+      "acidity": "Acidez",
+      "sweetness": "Dulzor",
+      "mouthfeel": "Cuerpo / táctil"
+    },
+    "cata": {
+      "fragrance_aroma": "Descriptores de aroma",
+      "flavor_aftertaste": "Descriptores de sabor",
+      "main_tastes": "Sabores básicos",
+      "mouthfeel": "Sensación táctil"
+    },
+    "limit_hint": "máx {{n}}",
+    "limit_reached": "Puedes elegir hasta {{n}}.",
+    "add_descriptors": "Añadir descriptores",
+    "picker_count": "{{count}} de {{max}}",
+    "origen_tag": "Colombia",
+    "notes_label": "Notas libres",
+    "notes_placeholder": "Lo que las escalas no capturan",
+    "save_next": "Guardar y siguiente",
+    "save_last": "Guardar y terminar",
+    "save_error": "No se pudo guardar la evaluación. Inténtalo de nuevo.",
+    "done_title": "{{cupper}} terminó",
+    "done_body": "Se guardaron {{count}} muestras. Pasa el iPad al siguiente catador o vuelve a la sesión.",
+    "another_cupper": "Otro catador",
+    "back_to_session": "Volver a la sesión"
+  },
+  "affective": {
+    "hedonic": {
+      "fragrance": "Fragancia",
+      "aroma": "Aroma",
+      "flavor": "Sabor",
+      "aftertaste": "Residual",
+      "acidity": "Acidez",
+      "sweetness": "Dulzor",
+      "mouthfeel": "Cuerpo",
+      "overall": "Global"
+    },
+    "uniformity": "Tazas uniformes",
+    "uniformity_help": "de 5",
+    "defects": "Tazas defectuosas",
+    "defects_help": "de 5",
+    "defect": {
+      "moldy": "Moho",
+      "phenolic": "Fenólico",
+      "potato": "Papa"
+    },
+    "score_label": "Puntaje afectivo"
+  },
+  "extrinsic": {
+    "dimension": {
+      "provenance": "Procedencia y terruño",
+      "variety": "Variedad",
+      "process": "Proceso",
+      "sustainability": "Sostenibilidad",
+      "traceability": "Trazabilidad y relación"
+    },
+    "certifications": "Certificaciones y atributos",
+    "notes_label": "Notas",
+    "notes_placeholder": "Contexto sobre el valor extrínseco del lote"
+  },
+  "physical": {
+    "title": "Análisis físico",
+    "subtitle": "Evaluación de grano verde y tueste — un registro por café.",
+    "green_heading": "Verde",
+    "roast_heading": "Tueste",
+    "fnc_grade": "Grado FNC",
+    "screen_size": "Malla (tamaño)",
+    "moisture": "Humedad (%)",
+    "water_activity": "Actividad de agua",
+    "primary_defects": "Defectos primarios",
+    "secondary_defects": "Defectos secundarios",
+    "broca": "Daño por broca",
+    "colombian_defects": "Defectos colombianos",
+    "roast_level": "Nivel de tueste",
+    "quakers": "Quakers",
+    "notes_label": "Notas",
+    "notes_placeholder": "Algo notable sobre la muestra física",
+    "save_next": "Guardar y siguiente café",
+    "save_last": "Guardar y terminar",
+    "save_error": "No se pudo guardar el análisis. Inténtalo de nuevo.",
+    "progress": "{{done}} de {{total}} analizados",
+    "done_title": "Análisis físico guardado",
+    "done_body": "Se analizaron {{count}} cafés.",
+    "back_to_session": "Volver a la sesión"
   }
 }

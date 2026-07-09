@@ -9,6 +9,8 @@
     "required": "Required",
     "optional": "Optional",
     "saving": "Saving…",
+    "done": "Done",
+    "search": "Search…",
     "submit_error": "Could not save the session. Please try again."
   },
   "home": {
@@ -22,9 +24,27 @@
   },
   "session_detail": {
     "ready_state": "Session ready to cup",
-    "ready_help": "The cupping form is coming soon. Your blind codes are saved.",
+    "ready_help": "Blind codes are saved. Start the descriptive form when the table is ready.",
+    "start_cupping": "Start cupping",
+    "physical_cta": "Physical grading",
+    "reveal_cta": "Reveal & scores",
     "language_label": "Language",
     "back_home": "Back to home"
+  },
+  "reveal": {
+    "title": "Reveal",
+    "subtitle": "Codes unblinded, ranked by panel score.",
+    "rank": "Rank",
+    "spread": "Spread",
+    "cuppers_scored": "{{count}} scored",
+    "no_scores": "Not yet scored",
+    "view_card": "Producer card",
+    "back_to_session": "Back to session"
+  },
+  "card": {
+    "export": "Export PNG",
+    "panel": "panel of {{count}}",
+    "descriptors": "Top descriptors"
   },
   "stepper": {
     "details": "Details",
@@ -83,5 +103,106 @@
       "reminder_body": "Before each cupper takes the tablet, make sure the previous cupper has saved their evaluation.",
       "confirm": "Confirm and start cupping"
     }
+  },
+  "descriptive": {
+    "title": "Descriptive cupping",
+    "pick_cupper_title": "Who is cupping?",
+    "pick_cupper_subtitle": "Select your initials, then taste each cup in turn.",
+    "no_cuppers": "No cuppers were added to this session.",
+    "cupper_label": "Cupper",
+    "sample_label": "Sample",
+    "stages": {
+      "descriptive": "Descriptive",
+      "affective": "Affective",
+      "extrinsic": "Extrinsic"
+    },
+    "affective_locked": "Mark all eight rows to continue",
+    "progress": "{{done}} of {{total}} cups saved",
+    "intensity": {
+      "fragrance_aroma": "Fragrance / aroma",
+      "flavor_aftertaste": "Flavor / aftertaste",
+      "acidity": "Acidity",
+      "sweetness": "Sweetness",
+      "mouthfeel": "Mouthfeel"
+    },
+    "cata": {
+      "fragrance_aroma": "Aroma descriptors",
+      "flavor_aftertaste": "Flavor descriptors",
+      "main_tastes": "Main tastes",
+      "mouthfeel": "Mouthfeel"
+    },
+    "limit_hint": "max {{n}}",
+    "limit_reached": "You can choose up to {{n}}.",
+    "add_descriptors": "Add descriptors",
+    "picker_count": "{{count}} of {{max}}",
+    "origen_tag": "Colombia",
+    "notes_label": "Free notes",
+    "notes_placeholder": "Anything the scales don't capture",
+    "save_next": "Save and next cup",
+    "save_last": "Save and finish",
+    "save_error": "Could not save the evaluation. Please try again.",
+    "done_title": "{{cupper}} finished",
+    "done_body": "Saved {{count}} cups. Pass the tablet to the next cupper or return to the session.",
+    "another_cupper": "Another cupper",
+    "back_to_session": "Back to session"
+  },
+  "affective": {
+    "hedonic": {
+      "fragrance": "Fragrance",
+      "aroma": "Aroma",
+      "flavor": "Flavor",
+      "aftertaste": "Aftertaste",
+      "acidity": "Acidity",
+      "sweetness": "Sweetness",
+      "mouthfeel": "Mouthfeel",
+      "overall": "Overall"
+    },
+    "uniformity": "Uniform cups",
+    "uniformity_help": "of 5",
+    "defects": "Defective cups",
+    "defects_help": "of 5",
+    "defect": {
+      "moldy": "Moldy",
+      "phenolic": "Phenolic",
+      "potato": "Potato"
+    },
+    "score_label": "Affective score"
+  },
+  "extrinsic": {
+    "dimension": {
+      "provenance": "Provenance & terroir",
+      "variety": "Variety",
+      "process": "Processing",
+      "sustainability": "Sustainability",
+      "traceability": "Traceability & relationship"
+    },
+    "certifications": "Certifications & claims",
+    "notes_label": "Notes",
+    "notes_placeholder": "Context about the lot's extrinsic value"
+  },
+  "physical": {
+    "title": "Physical grading",
+    "subtitle": "Green and roast assessment — one record per coffee.",
+    "green_heading": "Green",
+    "roast_heading": "Roast",
+    "fnc_grade": "FNC grade",
+    "screen_size": "Screen size",
+    "moisture": "Moisture (%)",
+    "water_activity": "Water activity",
+    "primary_defects": "Primary defects",
+    "secondary_defects": "Secondary defects",
+    "broca": "Broca (borer) damage",
+    "colombian_defects": "Colombian defects",
+    "roast_level": "Roast level",
+    "quakers": "Quakers",
+    "notes_label": "Notes",
+    "notes_placeholder": "Anything notable about the physical sample",
+    "save_next": "Save and next coffee",
+    "save_last": "Save and finish",
+    "save_error": "Could not save the grading. Please try again.",
+    "progress": "{{done}} of {{total}} graded",
+    "done_title": "Physical grading saved",
+    "done_body": "Graded {{count}} coffees.",
+    "back_to_session": "Back to session"
   }
 }

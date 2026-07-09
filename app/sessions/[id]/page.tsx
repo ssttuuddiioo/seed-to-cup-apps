@@ -104,6 +104,28 @@ export default async function SessionPage({ params }: { params: Promise<Params> 
         <p className="mt-1 text-sm text-neutral-700">
           {t("session_detail.ready_help", lang)}
         </p>
+        {samples.length > 0 && (
+          <div className="mt-4 flex flex-wrap gap-3">
+            <Link
+              href={`/sessions/${session.id}/evaluate`}
+              className="inline-block rounded-md bg-origen-orange px-5 py-2.5 text-sm font-medium text-white shadow-sm transition-opacity hover:opacity-90"
+            >
+              {t("session_detail.start_cupping", lang)}
+            </Link>
+            <Link
+              href={`/sessions/${session.id}/physical`}
+              className="inline-block rounded-md border border-neutral-300 px-5 py-2.5 text-sm font-medium text-neutral-700 hover:border-neutral-900"
+            >
+              {t("session_detail.physical_cta", lang)}
+            </Link>
+            <Link
+              href={`/sessions/${session.id}/reveal`}
+              className="inline-block rounded-md border border-neutral-300 px-5 py-2.5 text-sm font-medium text-neutral-700 hover:border-neutral-900"
+            >
+              {t("session_detail.reveal_cta", lang)}
+            </Link>
+          </div>
+        )}
       </section>
     </main>
   );
